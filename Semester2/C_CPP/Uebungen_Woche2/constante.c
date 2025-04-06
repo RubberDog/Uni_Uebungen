@@ -12,11 +12,8 @@ enum zahlen {
 int main()
 {
 	enum zahlen myEnum = PEWPEW;
-	printf("ENUM: %d", myEnum);
-
-	enum myEnum PEWPEW;
+	printf("ENUM: %d\n", myEnum);
 	int const constante = 37;
 	printf("def_constante: %d\n", def_constante);
 	printf("const-constante: %d\n", constante);
-	printf("ENUM: %d\n", myEnum);
 }
