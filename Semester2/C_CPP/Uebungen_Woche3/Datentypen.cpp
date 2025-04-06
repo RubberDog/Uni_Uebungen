@@ -9,8 +9,8 @@ int main()
 	float gleitkomma = 7.3;
 	double doppel = 124567;
 
-	cout << "Size char: " << sizeof(char) << endl;
-	cout << "Size int: " << sizeof(int) << endl;
-	cout << "Size float: " << sizeof(float) << endl;
-	cout << "Size double: " << sizeof(double) << endl;
+	cout << "Size char: " << sizeof(buchstabe) << endl;
+	cout << "Size int: " << sizeof(integer) << endl;
+	cout << "Size float: " << sizeof(gleitkomma) << endl;
+	cout << "Size double: " << sizeof(doppel) << endl;
 }
