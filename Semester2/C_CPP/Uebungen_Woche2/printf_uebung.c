@@ -9,5 +9,6 @@ int main()
 	printf("Integer: %d\n", number);
 	printf("Hexadezimal: %x\n", number);
 	printf("Octal: %o\n", number);
+	printf("Float: %3.2f\n", zahl_pi);
 	printf("Zeichenkette: %s\n\n", ausgabestring);
 }
