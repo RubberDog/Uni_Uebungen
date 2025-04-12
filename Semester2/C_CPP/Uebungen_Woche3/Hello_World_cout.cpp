@@ -8,7 +8,8 @@ int main()
 	float number2 = 3.3;
 	const int number3 = 7;
 	char character = 'y';
-
+	
+	cout << "Hallo, Lerngruppe!" << endl;
 	cout << "Integer: " << number << endl;
 	cout << "Float: " << number2 << endl;
 	cout << "Const: " << number3 << endl;
