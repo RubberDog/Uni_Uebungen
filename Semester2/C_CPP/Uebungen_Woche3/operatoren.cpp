@@ -15,6 +15,7 @@ int main()
 	cout << "* (Multiplikation): " << var1 * var2 << endl;
 	cout << "/ (Division): " << var1 / var2 << endl;
 	cout << "% (Modulo): " << var1 % var2 << endl;
+
 	cout << " " << endl;
 	cout << "Vergleichsoperat(oren:" << endl;
 	cout << "< (kleiner): " << (var1 < var2) << endl;
@@ -24,14 +25,29 @@ int main()
 	cout << "<= (kleiner gleich): " << (var1 <= var2) << endl;
 	cout << ">= (groesser gleich): " << (var1 >= var2) << endl;
 
+	cout << " " << endl;
 	bool var3 = true;
 	bool var4 = false;
-
+	cout << "Logische Operatoren:" << endl;
 	cout << "var3 ist: " << var3 << endl;
 	cout << "var4 ist: " << var4 << endl;
 	cout << "&& (und): " << (var3 && var4) << endl;
 	cout << "|| (oder): " << (var3 || var4) << endl;
 	cout << " " << endl;
-	cout << "Keine Idee fuer Bitweise Operatoren" << endl;
 
+	unsigned int var5 = 5;
+	unsigned int var6 = 9;
+	cout << "Bitweise Operatoren:" << endl;
+	cout << "var 5: " << var5 << endl;
+	cout << "var 6: " << var6 << endl;
+	cout << "var5 & var6 (bitwise AND): " << (var5 & var6) << endl;
+	cout << "var5 | var6 (bitwise OR): " << (var5 | var6) << endl;
+	cout << "var5 ^ var6 (bitwise XOR): " << (var5 ^ var6) << endl;
+	cout << "var5 = ~var5 (bitwise NOT): " << (~var5) << endl;
+	cout << "var5 << 1 (left shift): " << (var5 << 1) << endl;
+	cout << "var6 >> 1 (right shift): " << (var6 >> 1) << endl;
+
+	cout << " " << endl;
+	cout << " " << endl;
+	cout << "Yay, das hat geklappt! Na denn dann, bis naechste Woche!" << endl;
 }
