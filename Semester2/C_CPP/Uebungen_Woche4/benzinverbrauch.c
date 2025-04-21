@@ -4,9 +4,6 @@
 #define float verbrauchtesBenzin = 392.675
 
 int main() {
-    const float preisProLiter = 1.74;
-    const float gefahren = 2356.67;
-    const float verbrauchtesBenzin = 392.675;
 
     float verbrauchProHundert = gefahren / verbrauchtesBenzin;
     float kostenProHundert = verbrauchProHundert * preisProLiter;
