@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define float preisProLiter 1.74
-#define float gefahren = 2356.67
-#define float verbrauchtesBenzin = 392.675
+#define float gefahren 2356.67
+#define float verbrauchtesBenzin 392.675
 
 int main() {
 
