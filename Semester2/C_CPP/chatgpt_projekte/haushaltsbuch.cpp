@@ -9,16 +9,38 @@ struct Buchung {
 
 std::vector<Buchung> buchungen;
 
+int selection;
+
+int menueanzeigen() {
+	std::cout << "\n======================" << std::endl;
+	std::cout << "     Haushaltsbuch" << std::endl;
+	std::cout << "======================\n" << std::endl;
+	std::cout << "1. Einnahme hinzufuegen" << std::endl;
+	std::cout << "2. Ausgabe hinzufuegen" << std::endl;
+	std::cout << "3. Alle Buchungen anzeigen" << std::endl;
+	std::cout << "4. Kontostand anzeigen" << std::endl;
+	std::cout << "5. Beenden\n" << std::endl;
+	std::cout << "Bitte eine Auswahl treffen (1-5): ";
+	std::cin >> selection;
+	if (std::cin.fail()) {
+		std::cin.clear();
+		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+		selection = 0;
+	}
+	return selection;
+}
+
 void einnahme() {
 	std::string grund;
 	double summe;
 	std::cout << "Was ist der Grund der Buchung?" << std::endl;
+	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	std::getline(std::cin, grund);
 	std::cout << "Welche Summe soll gebucht werden?" << std::endl;
 	std::cin >> summe;
-	if (summe < 0) {
-		std::cout << ("Negative Werte koennen keine Einnahme sein!\n\n") << std::endl;
-		return;
+	if (std::cin.fail()) {
+		std::cin.clear();
+		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	}
 	Buchung b = { grund, summe };
 	buchungen.push_back(b);
@@ -27,14 +49,17 @@ void einnahme() {
 void ausgabe() {
 	std::string grund;
 	double summe;
-	std::cout << "Was ist der Grund der Buchung?" << std::endl;
-	std::cin >> grund;
+	std::cout << "Was ist der Grund der Ausgabe?" << std::endl;
+	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+	std::getline(std::cin, grund);
 	std::cout << "Welche Summe soll gebucht werden?" << std::endl;
 	std::cin >> summe;
-	if (summe > 0) {
-		std::cout << ("Positive Werte koennen keine Ausgabe sein!\n\n") << std::endl;
-		return;
+	if (std::cin.fail()) {
+		std::cin.clear();
+		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	}
+	if (summe > 0)
+		summe = -summe;
 	Buchung b = { grund, summe };
 	buchungen.push_back(b);
 }
@@ -55,16 +80,8 @@ void kontostandanzeigen() {
 
 
 int main() {
-	int selection;
 	do {
-		std::cout << "Was moechtest du tun? " << std::endl;
-		std::cout << "\n1. Einnahme hinzufuegen\n2. Ausgabe hinzufuegen\n3. Alle Buchungen anzeigen\n4. Kontostand anzeigen\n5. Beenden\n" << std::endl;
-		std::cin >> selection;
-		if (std::cin.fail()) {
-			std::cin.clear();
-			std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-			selection = 0;
-		}
+		selection = menueanzeigen();
 
 		switch (selection)
 		{
