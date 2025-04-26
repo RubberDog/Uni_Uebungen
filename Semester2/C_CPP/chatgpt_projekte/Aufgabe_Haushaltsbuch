@@ -1,0 +1,40 @@
+🔧 Projekt-Idee: Einfaches Haushaltsbuch (Budget-Tracker)
+Ziel:
+Ein Konsolenprogramm, mit dem du deine Einnahmen und Ausgaben eintragen kannst. Es soll dir am Ende den Kontostand anzeigen und alle Buchungen speichern.
+
+🔍 Funktionen, die du bauen kannst:
+Menü mit Auswahl:
+
+markdown
+Kopieren
+Bearbeiten
+Was möchtest du tun?
+1. Einnahme hinzufügen
+2. Ausgabe hinzufügen
+3. Alle Buchungen anzeigen
+4. Kontostand anzeigen
+5. Beenden
+Buchungen speichern (in einem Array oder std::vector)
+→ Jede Buchung hat einen Betrag, eine Beschreibung, und ein Datum (optional)
+
+Gesamtkontostand berechnen
+→ Einnahmen (+) und Ausgaben (−) zusammenzählen
+
+(Optional): Speichern und Laden aus einer Datei
+→ Damit du beim nächsten Start deine Daten wieder hast
+
+🔧 Was du dabei lernst:
+while-Schleifen (für das Menü)
+
+if-Verzweigungen
+
+struct oder class (z.B. für eine Buchung)
+
+vector aus der STL
+
+evtl. Dateiein-/ausgabe mit fstream
+
+saubere Aufteilung in Funktionen
+
+einfache Benutzerinteraktion mit cin/cout
+
