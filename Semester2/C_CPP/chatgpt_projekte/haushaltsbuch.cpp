@@ -17,7 +17,7 @@ void einnahme() {
 	std::cout << "Welche Summe soll gebucht werden?" << std::endl;
 	std::cin >> summe;
 	if (summe < 0) {
-		std::cout << ("Negative Werte koennen keine Ausgabe sein!\n\n") << std::endl;
+		std::cout << ("Negative Werte koennen keine Einnahme sein!\n\n") << std::endl;
 		return;
 	}
 	Buchung b = { grund, summe };
