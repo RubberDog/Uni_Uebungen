@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <sstream>
+#include <iomanip>
 
 struct Buchung {
 	std::string beschreibung;
@@ -9,9 +10,9 @@ struct Buchung {
 
 std::vector<Buchung> buchungen;
 
-int selection;
 
 int menueanzeigen() {
+	int selection;
 	std::cout << "\n======================" << std::endl;
 	std::cout << "     Haushaltsbuch" << std::endl;
 	std::cout << "======================\n" << std::endl;
@@ -20,7 +21,7 @@ int menueanzeigen() {
 	std::cout << "3. Alle Buchungen anzeigen" << std::endl;
 	std::cout << "4. Kontostand anzeigen" << std::endl;
 	std::cout << "5. Beenden\n" << std::endl;
-	std::cout << "Bitte eine Auswahl treffen (1-5): ";
+	std::cout << "Bitte eine Auswahl treffen (1-5): \n";
 	std::cin >> selection;
 	if (std::cin.fail()) {
 		std::cin.clear();
@@ -33,10 +34,10 @@ int menueanzeigen() {
 void einnahme() {
 	std::string grund;
 	double summe;
-	std::cout << "Was ist der Grund der Buchung?" << std::endl;
+	std::cout << "\nWas ist der Grund der Buchung?" << std::endl;
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	std::getline(std::cin, grund);
-	std::cout << "Welche Summe soll gebucht werden?" << std::endl;
+	std::cout << "\nWelche Summe soll gebucht werden?" << std::endl;
 	std::cin >> summe;
 	if (std::cin.fail()) {
 		std::cin.clear();
@@ -49,10 +50,10 @@ void einnahme() {
 void ausgabe() {
 	std::string grund;
 	double summe;
-	std::cout << "Was ist der Grund der Ausgabe?" << std::endl;
+	std::cout << "\nWas ist der Grund der Ausgabe?" << std::endl;
 	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	std::getline(std::cin, grund);
-	std::cout << "Welche Summe soll gebucht werden?" << std::endl;
+	std::cout << "\nWelche Summe soll gebucht werden?" << std::endl;
 	std::cin >> summe;
 	if (std::cin.fail()) {
 		std::cin.clear();
@@ -65,7 +66,12 @@ void ausgabe() {
 }
 
 void buchungenzeigen() {
+	std::cout << "\n" << std::endl;
 	for (const auto& buchung : buchungen) {
+		if (buchung.betrag >= 0)
+			std::cout << "[Einnahme] ";
+		else
+			std::cout << "[Ausgabe] ";
 		std::cout << buchung.beschreibung << ": " << buchung.betrag << " EUR\n\n";
 	}
 }
@@ -75,11 +81,13 @@ void kontostandanzeigen() {
 	for (const auto& buchung : buchungen) {
 			kontostand += buchung.betrag;
 	}
-	std::cout << "Der aktuelle Kontostand betraegt: " << kontostand << " EUR.\n\n" << std::endl;
+	std::cout << "\n\nDer aktuelle Kontostand betraegt: " << kontostand << " EUR.\n\n" << std::endl;
 }
 
 
 int main() {
+	std::cout << std::fixed << std::setprecision(2);
+	int selection;
 	do {
 		selection = menueanzeigen();
 
