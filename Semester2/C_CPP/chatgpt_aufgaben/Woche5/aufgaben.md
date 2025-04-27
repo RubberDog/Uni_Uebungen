@@ -1,4 +1,4 @@
-#Aufgabe 1
+# Aufgabe 1
 
 "Passwort-Eingabe mit Wiederholung"
 Beschreibung:
