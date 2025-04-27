@@ -1,4 +1,4 @@
-# Aufgabe 1
+# Aufgabe 1 
 
 "Passwort-Eingabe mit Wiederholung"
 Beschreibung:
@@ -33,7 +33,7 @@ Ergebnis: 2 + 4 + 6 + 8 + 10 = 30
 → Schwierigkeit: Nur bestimmte Zahlen summieren (if (zahl % 2 == 0)).
 
 
-# Aufgabe 3
+# Aufgabe 3 (Bonus)
 
 "Finde die größte Zahl in einem Array (nur mit Pointern)"
 Beschreibung:
