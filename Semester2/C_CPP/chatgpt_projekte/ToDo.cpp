@@ -41,22 +41,34 @@ void anlegen() {
 }
 
 void loeschen() {
-	std::cout << "Hier kommt spaeter noch was" << std::endl;
-}
-
-void erledigen() {
 	int aufgabennr = 0;
-	std::cout << "Welche Aufgabe hast du erledigt? " << std::endl;
-	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+	std::cout << "Welche Aufgabe soll geloescht werden? " << std::endl;
 	int i = 1;
-	for (const auto& aufgabe : aufgaben) {
-		std::cout << i << " " << aufgabe.beschreibung << "\n";
+	//for (const auto& aufgabe : aufgaben) {
+	for (int i = 0; i < aufgaben.size(); i++) {
+		std::cout << i << " " << aufgaben[i].beschreibung << "\n";
 		i++;
 	}
 	std::cin >> aufgabennr;
 	while (std::cin.fail() || aufgabennr <= 0 || aufgabennr > aufgaben.size()) {
 		std::cin.clear();
-		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+		std::cout << "Ungueltige Eingabe. Bitte eine gueltige Aufgabennummer eingeben: ";
+		std::cin >> aufgabennr;
+	}
+	aufgaben.erase(aufgaben.begin() + aufgabennr-1);
+}
+
+void erledigen(std::vector<Aufgabe>& aufgaben) {
+	int aufgabennr = 0;
+	std::cout << "Welche Aufgabe hast du erledigt? " << std::endl;
+	int i = 1;
+	for (int i = 0; i < aufgaben.size(); i++) {
+		std::cout << i << " " << aufgaben[i].beschreibung << "\n";
+		i++;
+	}
+	std::cin >> aufgabennr;
+	while (std::cin.fail() || aufgabennr <= 0 || aufgabennr > aufgaben.size()) {
+		std::cin.clear();
 		std::cout << "Ungueltige Eingabe. Bitte eine gueltige Aufgabennummer eingeben: ";
 		std::cin >> aufgabennr;
 	}
@@ -64,10 +76,11 @@ void erledigen() {
 }
 
 void anzeigen() {
-	for (const auto& aufgabe : aufgaben) {
-		if (aufgabe.erledigt == true)
+	for (int i = 0; i < aufgaben.size(); i++) {
+		if (aufgaben[i].erledigt == true) {
 			std::cout << "[DONE] ";
-			std::cout << aufgabe.beschreibung << "\n\n";
+		}
+		std::cout << aufgaben[i].beschreibung << "\n\n";
 	}
 
 }
@@ -84,7 +97,7 @@ int main() {
 			anlegen();
 			break;
 		case 2:
-			erledigen();
+			erledigen(aufgaben);
 			break;
 		case 3:
 			anzeigen();
