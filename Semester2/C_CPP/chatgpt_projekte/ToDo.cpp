@@ -61,10 +61,8 @@ void loeschen() {
 void erledigen(std::vector<Aufgabe>& aufgaben) {
 	int aufgabennr = 0;
 	std::cout << "Welche Aufgabe hast du erledigt? " << std::endl;
-	int i = 1;
 	for (int i = 0; i < aufgaben.size(); i++) {
-		std::cout << i << " " << aufgaben[i].beschreibung << "\n";
-		i++;
+		std::cout << i+1 << " " << aufgaben[i].beschreibung << "\n";
 	}
 	std::cin >> aufgabennr;
 	while (std::cin.fail() || aufgabennr <= 0 || aufgabennr > aufgaben.size()) {
