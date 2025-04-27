@@ -13,7 +13,7 @@ int main()
     }
 
     int i = 1;
-    while (i < anzahl)
+    while (i <= anzahl)
     {
         summe += i;
         i++;
@@ -26,11 +26,11 @@ int main()
     {
         summe += j;
         j++;
-    } while (j < anzahl);
+    } while (j <= anzahl);
     std::cout << "Summe nach Ende der do-while-Schleife: " << summe << std::endl;
 
     summe = 0;
-    for (int k = 1; k < anzahl; k++)
+    for (int k = 1; k <= anzahl; k++)
     {
         summe += k;
     }
