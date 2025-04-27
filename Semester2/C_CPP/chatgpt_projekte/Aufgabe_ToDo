@@ -1,0 +1,45 @@
+🚀 Projektvorschlag: "ToDo-Liste" (Aufgabenverwaltung)
+Das ist ein perfektes nächstes Übungsprojekt, weil:
+
+du arbeitest wieder mit struct
+
+du benutzt vector
+
+du übst Schleifen, Verzweigungen, Benutzerinteraktion
+
+du kannst zusätzliche Funktionen einbauen
+
+du kannst optional Dateispeicherung lernen!
+
+📋 Projektbeschreibung: "ToDo-Manager"
+Du baust ein Programm, mit dem du Aufgaben verwalten kannst:
+
+Funktionen:
+
+✅ Aufgabe hinzufügen (Titel + optional Beschreibung)
+
+✅ Aufgabenliste anzeigen
+
+✅ Aufgaben als erledigt markieren
+
+✅ Aufgaben löschen
+
+✅ Offene und erledigte Aufgaben getrennt auflisten
+
+✅ Optional: Aufgaben beim Beenden speichern / beim Start wieder laden
+
+🛠️ Was du dabei üben kannst:
+struct für Aufgaben (Aufgabe)
+
+std::vector<Aufgabe>
+
+cin/cout
+
+getline(), cin.fail()
+
+saubere Menüführung
+
+Funktionen aufteilen
+
+Optional: Dateispeicherung (fstream)
+
