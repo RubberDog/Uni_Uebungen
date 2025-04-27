@@ -24,13 +24,11 @@ Dein Programm fragt:
 Danach rechnet es alle geraden Zahlen (2, 4, 6, …) bis zu dieser Zahl zusammen.
 
 Beispiel:
-
-makefile
-Kopieren
-Bearbeiten
+```
 Eingabe: 10
 Ergebnis: 2 + 4 + 6 + 8 + 10 = 30
 → Schwierigkeit: Nur bestimmte Zahlen summieren (if (zahl % 2 == 0)).
+```
 
 
 # Aufgabe 3 (Bonus)
@@ -52,7 +50,7 @@ Die größte Zahl ausgeben.
 
 
 Beispiel-Ablauf:
-
+```
   Wie viele Zahlen möchtest du eingeben? 5
   Gib Zahl 1 ein: 12
   Gib Zahl 2 ein: 45
@@ -61,7 +59,7 @@ Beispiel-Ablauf:
   Gib Zahl 5 ein: 23
   
   Die größte Zahl ist: 64
-
+```
 
 Zusatzhinweise:
 
