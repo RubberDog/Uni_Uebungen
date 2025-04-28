@@ -2,8 +2,7 @@
 
 
 int main() {
-    int eingabe;
-    int summe;
+    int eingabe, summe;
     printf("Bis zu welcher Zahl moechtest du die geraden Zahlen addieren? \n");
     scanf("%d", &eingabe);
     for (int i = 1; i <= eingabe; i++) {
