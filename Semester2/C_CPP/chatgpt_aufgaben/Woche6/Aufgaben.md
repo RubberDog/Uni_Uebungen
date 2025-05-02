@@ -21,7 +21,7 @@ einfache arithmetische Berechnung
 
 
 # Bonus-Aufgabe: "Benutzerdefinierte Statistik"
-📘 Aufgabenstellung:
+Aufgabenstellung:
 Schreibe ein Programm, das:
 
 Den Benutzer fragt, wie viele Ganzzahlen er eingeben möchte.
@@ -37,17 +37,15 @@ die Anzahl aller negativen Zahlen
 
 optional: Anzahl gerader/ungerader Zahlen
 
-## Pflicht: Die Logik muss in folgende Funktionen ausgelagert werden:
-c
-Kopieren
-Bearbeiten
+### Pflicht: Die Logik muss in folgende Funktionen ausgelagert werden:
+```
 int lies_zahl();                         // Benutzerfreundliche Eingabe einer Zahl
 void lies_array(int* arr, int n);        // Liest n Zahlen in ein dynamisches Array
 int finde_max(const int* arr, int n);    // Größte Zahl
 int finde_min(const int* arr, int n);    // Kleinste Zahl
 float berechne_durchschnitt(const int* arr, int n);
 int zaehle_negative(const int* arr, int n);
-
+```
 
 Erweiterungsideen (freiwillig):
 zaehle_gerade() und zaehle_ungerade()
