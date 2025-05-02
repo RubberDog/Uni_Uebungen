@@ -28,19 +28,19 @@ Aufgabenstellung:
 
 Schreibe ein Programm, das:
 
-Den Benutzer fragt, wie viele Ganzzahlen er eingeben möchte.
+* Den Benutzer fragt, wie viele Ganzzahlen er eingeben möchte.
 
-Diese Zahlen in einem dynamischen Array speichert.
+* Diese Zahlen in einem dynamischen Array speichert.
 
-Über das Array verschiedene Statistiken berechnet, und zwar:
+* Über das Array verschiedene Statistiken berechnet, und zwar:
 
-die größte Zahl
+  * die größte Zahl
 
-die kleinste Zahl
+  * die kleinste Zahl
 
-den Durchschnitt (float!)
+  * den Durchschnitt (float!)
 
-die Anzahl aller negativen Zahlen
+  * die Anzahl aller negativen Zahlen
 
 optional: Anzahl gerader/ungerader Zahlen
 
