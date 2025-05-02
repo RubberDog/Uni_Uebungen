@@ -48,7 +48,10 @@ int zaehle_negative(const int* arr, int n);
 ```
 
 Erweiterungsideen (freiwillig):
+
 zaehle_gerade() und zaehle_ungerade()
+
 print_array() mit for und continue, um bestimmte Werte zu überspringen
+
 Alle Werte über dem Durchschnitt ausgeben
 
