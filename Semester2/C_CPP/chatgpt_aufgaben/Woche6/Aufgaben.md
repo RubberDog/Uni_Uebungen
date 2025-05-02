@@ -7,6 +7,7 @@ Ziele:
 
 if
 einfache Funktion
+
 Rückgabewert nutzen
 
 
@@ -16,12 +17,15 @@ Lies eine Zahl n ein und berechne die Summe aller Zahlen von 1 bis n, aber über
 Ziele:
 
 for-Schleife
+
 continue
+
 einfache arithmetische Berechnung
 
 
 # Bonus-Aufgabe: "Benutzerdefinierte Statistik"
 Aufgabenstellung:
+
 Schreibe ein Programm, das:
 
 Den Benutzer fragt, wie viele Ganzzahlen er eingeben möchte.
@@ -31,8 +35,11 @@ Diese Zahlen in einem dynamischen Array speichert.
 Über das Array verschiedene Statistiken berechnet, und zwar:
 
 die größte Zahl
+
 die kleinste Zahl
+
 den Durchschnitt (float!)
+
 die Anzahl aller negativen Zahlen
 
 optional: Anzahl gerader/ungerader Zahlen
