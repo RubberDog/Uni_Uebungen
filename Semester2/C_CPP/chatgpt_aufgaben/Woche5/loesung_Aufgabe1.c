@@ -11,7 +11,6 @@ int main() {
             eingabe[strcspn(eingabe, "\n")] = '\0';
             if (strcmp(password, eingabe) != 0) {
                 printf("Leider falsch. Das war Versuch %d\n\n", i);
-                printf("%s, %s", password, eingabe);
             } else {
                 printf("Zugang gewährt.");
                 return 0;
