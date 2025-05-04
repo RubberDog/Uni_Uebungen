@@ -1,9 +1,10 @@
 /*
 Funktioniert nur so halb.
-scanf_s bei "lies_array()" bricht nach Eingabe der ersten Zahl ohne Fehlermeldung ab.
+scanf_s bei "lies_array" bricht nach Eingabe der ersten Zahl ohne Fehlermeldung ab.
 Vermutlich ein Speicherzugriffsfehler? 
 Wenn ich den Fehler noch finde, korrigiere ich's hier.
-Vielleicht klappt's sonst bei jemandem von euch (mit scanf statt scanf_s) */
+Vielleicht klappt's sonst bei jemandem von euch (mit scanf statt scanf_s) 
+*/
 
 #include <stdio.h>
 
