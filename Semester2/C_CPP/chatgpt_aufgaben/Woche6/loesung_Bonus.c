@@ -1,18 +1,11 @@
-/*
-Funktioniert nur so halb.
-scanf_s bei "lies_array" bricht nach Eingabe der ersten Zahl ohne Fehlermeldung ab.
-Vermutlich ein Speicherzugriffsfehler? 
-Wenn ich den Fehler noch finde, korrigiere ich's hier.
-Vielleicht klappt's sonst bei jemandem von euch (mit scanf statt scanf_s) 
-*/
-
 #include <stdio.h>
+#include <stdlib.h>
 
 int anzahl = 0;
 
 int lies_zahl() {
 	printf("Wie viele Zahlen sollen's werden?\n");
-	scanf_s("%d", &anzahl);
+	scanf("%d", &anzahl);
 	printf("Anmzahl %d", anzahl);
 	return anzahl;
 }
@@ -20,7 +13,7 @@ int lies_zahl() {
 void lies_array(int* arr, int n) {
 	printf("Welche Zahlen sollen hinzugefuegt werden?\n");
 	for (int i = 0; i < n; i++) {
-		scanf_s("%d", (arr + i));
+		scanf("%d", (arr + i));
 	}
 }
 
@@ -95,10 +88,10 @@ int zaehle_ungerade(const int* arr, int n) {
 int main() {
 	int* arr = (int*)malloc(lies_zahl() * sizeof(int));
 	lies_array(arr, anzahl);
-	printf("Max: %d", finde_max(arr, anzahl));
-	printf("Min: %d", finde_min(arr, anzahl));
-	printf("Durchschnitt: %lf", berechne_durchschnitt(arr, anzahl));
-	printf("Anzahl negativer Zahlen: %d", zaehle_negative(arr, anzahl));
-	printf("Anzahl gerader Zahlen: %d", zaehle_gerade(arr, anzahl));
-	printf("Anzahl ungerader Zahlen: %d", zaehle_ungerade(arr, anzahl));
+	printf("Max: %d\n", finde_max(arr, anzahl));
+	printf("Min: %d\n", finde_min(arr, anzahl));
+	printf("Durchschnitt: %10.2lf\n", berechne_durchschnitt(arr, anzahl));
+	printf("Anzahl negativer Zahlen: %d\n", zaehle_negative(arr, anzahl));
+	printf("Anzahl gerader Zahlen: %d\n", zaehle_gerade(arr, anzahl));
+	printf("Anzahl ungerader Zahlen: %d\n", zaehle_ungerade(arr, anzahl));
 }
