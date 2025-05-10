@@ -54,3 +54,4 @@ Eine Funktion zur Ausgabe aller Studierenden
 Eine Funktion zur Ermittlung des besten Notendurchschnitts
 
 🔑 Hinweise: Nutze Pointer zur Übergabe an Funktionen und beachte Feldgrößen für char name[50] o. ä.
+Die jeweiligen Werte werden nicht vom Nutzer eingegeben, sondern 'hardcoded' im Programm hinterlegt
