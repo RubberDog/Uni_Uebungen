@@ -1,4 +1,4 @@
-🧩 Aufgabe 1 (C – String-Funktionen)
+# 🧩 Aufgabe 1 (C – String-Funktionen)
 Thema: strcpy, strcmp, strlen, Zeichenkettenvergleich und -kopie
 
 📝 Aufgabenstellung:
@@ -17,7 +17,7 @@ Die dritte Zeichenkette in Großbuchstaben umwandeln (optional für Fortgeschrit
 Erstelle jeweils eine eigene Funktion.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
-🧩 Aufgabe 2 (C++ – Funktionsüberladung)
+# 🧩 Aufgabe 2 (C++ – Funktionsüberladung)
 Thema: Overloading von Funktionen
 
 📝 Aufgabenstellung:
@@ -36,7 +36,7 @@ Im main()-Block sollen alle drei Varianten getestet werden.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-🧠 Aufgabe 3 (C – Bonusaufgabe: Struct + typedef)
+# 🧠 Aufgabe 3 (C – Bonusaufgabe: Struct + typedef)
 Thema: typedef, struct, Feld von Strukturen
 
 📝 Aufgabenstellung:
