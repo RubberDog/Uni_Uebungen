@@ -9,14 +9,14 @@ typedef struct {
 	int matrikel;
 } Studenten;
 
-void ausgabe(Studenten studis[], int anzahl) {
+void ausgabe(Studenten *studis, int anzahl) {
 	printf("Liste der Studenten:\n");
 	for (int i = 0; i < anzahl; i++) {
 		printf("%s, Matrikelnr: %d, Notenschnitt %1.1lf\n", studis[i].name, studis[i].matrikel, studis[i].notenschnitt);
 	}
 }
 
-float bester_schnitt(Studenten studis[], int anzahl) {
+float bester_schnitt(Studenten *studis, int anzahl) {
 	float besterschnitt = 4.0;
 	for (int i = 0; i < anzahl; i++) {
 		if (studis[i].notenschnitt < besterschnitt) {
