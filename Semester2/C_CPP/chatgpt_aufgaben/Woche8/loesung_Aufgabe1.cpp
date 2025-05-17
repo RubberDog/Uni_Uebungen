@@ -33,3 +33,14 @@ int main() {
 	valueswap(x, y);
 	std::cout << "Nach dem swap: x = " << x << ", y = " << y << std::endl;
 }
+
+/*
+Und, was sind die Unterschiede?
+referenz und pointer haben den gleichen Effekt. 
+Per referenz ist allerdings deutlich simpler. Pointer sind doof.
+Der wichtigste Unterschied ist bei "call by value" zu sehen:
+Hier werden die Variablen x und y im Hauptprogramm nicht vertauscht!
+Bei "call by value" werden die übergebenen Variablen kopiert und fungieren dann als lokale Variablen in der Funktion.
+Das ist Klasse, wenn man die Variablen nicht verändern will. Ein Ergebnis lässt sich dennoch mit return ausgeben.
+Doof ist allerdings, dass sich somit immer nur ein Wert "ändern" lässt.
+*/
