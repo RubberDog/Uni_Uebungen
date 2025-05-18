@@ -20,9 +20,10 @@ Die Liste in eine Textdatei (einkauf.txt) zu schreiben
 Beim nächsten Start die Liste aus der Datei zu lesen und anzuzeigen
 
 Beispielinhalt der Datei:
-
+```
 Milch 2
 Brot 1
 Eier 10
+```
 
 Ziel: Datei schreiben mit Formatierung, Datei lesen & parsen
