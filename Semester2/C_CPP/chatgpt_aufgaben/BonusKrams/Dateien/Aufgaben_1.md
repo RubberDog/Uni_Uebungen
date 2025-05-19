@@ -1,3 +1,30 @@
+# Einfache Einstiegsaufgaben – Dateien (C oder C++)
+
+# 🧩 Datei 1: „Hallo Welt“ in Textdatei schreiben
+
+Aufgabe:
+
+Schreibe ein Programm, das einfach "Hallo Welt" in eine Datei namens ausgabe.txt schreibt.
+
+Lernziel:
+
+Grundverständnis von fopen / ofstream, Datei öffnen, schreiben, schließen.
+
+# 🧩 Datei 2: Eine Zahl speichern und wieder einlesen
+
+Aufgabe:
+
+Lass den Benutzer eine Ganzzahl eingeben.
+
+Speichere diese in einer Datei zahl.txt
+
+Lies sie beim nächsten Programmstart wieder ein und gib sie aus.
+
+Lernziel:
+
+Lesen/Schreiben von einfachen Daten (Text oder Zahl) in Dateien.
+
+
 # 📂 5 Aufgaben – Dateioperationen (C oder C++)
 
 # 🧩 Aufgabe 1: Textdatei schreiben und lesen
