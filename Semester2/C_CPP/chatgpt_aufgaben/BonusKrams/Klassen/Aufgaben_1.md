@@ -40,15 +40,11 @@ Ziel: Erstelle eine Klasse Auto mit Attributen marke, baujahr. Implementiere ein
 
 Ziel: Baue in eine Klasse Buch einen Konstruktor, der Titel & Autor setzt, und einen Destruktor, der beim Löschen des Objekts eine Nachricht ausgibt.
 
-# 🧩 Aufgabe 3: Vererbung
-
-Ziel: Erstelle eine Basisklasse Tier mit Methode lautGeben(). Erstelle abgeleitete Klassen Hund, Katze, die jeweils ihre eigene Variante von lautGeben() implementieren.
-
-# 🧩 Aufgabe 4: Operatorüberladung
+# 🧩 Aufgabe 3: Operatorüberladung
 
 Ziel: Definiere eine Klasse Vektor2D mit x und y. Überlade den +-Operator, um zwei Vektoren zu addieren. Teste das mit zwei Objekten.
 
-# 🧩 Aufgabe 5: Vektoren & Methoden
+# 🧩 Aufgabe 4: Vektoren & Methoden
 
 Ziel: Implementiere eine Klasse Messreihe, die in einem std::vector<float> Messwerte speichert. Implementiere Methoden:
 
@@ -59,3 +55,7 @@ durchschnitt()
 min()
 
 Teste die Klasse mit Beispieldaten.
+
+# 🧩 Aufgabe 5: Vererbung  || Achtung - Vererbung ist explizit KEIN Prüfungsthema
+
+Ziel: Erstelle eine Basisklasse Tier mit Methode lautGeben(). Erstelle abgeleitete Klassen Hund, Katze, die jeweils ihre eigene Variante von lautGeben() implementieren.
