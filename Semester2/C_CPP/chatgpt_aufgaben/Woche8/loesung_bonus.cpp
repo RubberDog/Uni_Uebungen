@@ -1,7 +1,3 @@
-/* 
-Noch nicht fertig. Speichern in Datei kommt noch.. keine Lust mehr.
-*/
-
 #include <iostream>
 #include <string>
 #include <vector>
@@ -116,5 +112,13 @@ void anzeigen() {
 }
 
 void speichern() {
-	std::cout << "TDB" << std::endl;
+	std::ofstream listeDatei("einkauf.txt");
+	if (!listeDatei) {
+		std::cout << "Datei konnte nicht geöffnet werden!";
+		return;
+	}
+	for (int i = 0; i < einkauf.size(); i++) {
+		listeDatei << einkauf[i].item << " " << einkauf[i].anzahl << "\n";
+	}
+	listeDatei.close();
 }
