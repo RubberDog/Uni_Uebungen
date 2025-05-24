@@ -78,6 +78,7 @@ void einlesen() {
 		Einkauf e{ item, anzahl };
 		einkauf.push_back(e);
 	}
+	listeDatei.close();
 }
 
 void anlegen() {
