@@ -1,0 +1,10 @@
+Berlin 12.4
+Hamburg 15.1
+München 13.7
+Köln 14.3
+Stuttgart 11.9
+Dresden 16.5
+Leipzig 14.8
+Bremen 10.2
+Frankfurt 13.3
+Hannover 15.0
