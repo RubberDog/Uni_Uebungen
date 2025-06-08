@@ -56,5 +56,6 @@ int main()
     Eingabe(array, groesse);
     sortierung(array, groesse);
     ausgabe(array, groesse);
+    free(array);
     return 0;
 }
