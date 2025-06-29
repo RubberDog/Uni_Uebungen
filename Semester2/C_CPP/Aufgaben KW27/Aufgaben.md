@@ -30,10 +30,7 @@ ein und rufen Sie die Funktion mit dem Array auf.
 
 # Aufgabe 3
 
-a) Schreiben Sie eine allgemeingültige Funktion, die in einer Zeichenkette nach einem 
-bestimmten Zeichen sucht und dieses gefundene Zeichen durch ein anderes Zeichen 
-ersetzt. Geben Sie Anzahl der gefundenen Zeichen über den Rückgabewert der Funktion zurück. Werden keine  
-übereinstimmenden Zeichen gefunden, soll -1 zurückgegeben werden. 
+a) Schreiben Sie eine allgemeingültige Funktion, die in einer Zeichenkette nach einem bestimmten Zeichen sucht und dieses gefundene Zeichen durch ein anderes Zeichen ersetzt. Geben Sie Anzahl der gefundenen Zeichen über den Rückgabewert der Funktion zurück. Werden keine übereinstimmenden Zeichen gefunden, soll -1 zurückgegeben werden. 
 
 Die Deklaration der Funktion lautet: 
 
