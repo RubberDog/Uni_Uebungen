@@ -3,7 +3,7 @@
 int search(int * pointer, int Anzahl, int Wert) {
     int Ergebnis = -1;
     for (int i = 0; i < Anzahl; i++) {
-        if (*(pointer+i) == Wert) {
+        if (*(pointer+i) == i) {
             Ergebnis = Wert;
             break;
         }
