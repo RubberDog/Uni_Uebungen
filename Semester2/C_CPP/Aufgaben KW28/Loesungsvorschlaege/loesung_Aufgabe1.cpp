@@ -33,7 +33,10 @@ int Read(char* FileName, int Anzahl, int* Values) {
     }
     */
     file.close();
+    // folgende Zeile nur in der "komplexen" Version
     return count;
+    // simpel dann bitte so;
+    // return 0;
 }
 
 int main() {
@@ -45,10 +48,15 @@ int main() {
     }
     char FileName[] = "mw.dat";
     int readvalues = Read(FileName, Anzahl, Values);
+    // Nur für die komplexe Version
     std::cout << "[Studi-Debug] Es wurden " << readvalues << " Werte verarbeitet!" << std::endl;
     std::cout << "[Noch viel mehr Studi-Debug]" << std::endl;
     for (int i = 0; i < readvalues; ++i) {
         std::cout << "Wert " << i + 1 << ": " << Values[i] << std::endl;
     }
+    // In der simplen;
+    std::cout << "Alles klar, alle Daten aus der Datei: " << FileName << " wurden in ein Array geschrieben!" << std::endl;
+    // Speicher wieder freimachen nicht vergessen!
+    delete Values;
     return 0;
 }
