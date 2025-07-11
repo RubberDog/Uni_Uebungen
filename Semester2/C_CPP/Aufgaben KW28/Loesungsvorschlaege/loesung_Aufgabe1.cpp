@@ -25,7 +25,7 @@ int Read(char* FileName, int Anzahl, int* Values) {
         ++count;
     }
     /* 
-        Hier die simplere Version, davon ausgehen dass genau $ANZAHL Einträge in $FILENAME sind
+        Hier die simplere Version, davon ausgehend dass genau $ANZAHL Einträge in $FILENAME sind
     */
     /*
     for (int i = 0; i < Anzahl; ++i) {
