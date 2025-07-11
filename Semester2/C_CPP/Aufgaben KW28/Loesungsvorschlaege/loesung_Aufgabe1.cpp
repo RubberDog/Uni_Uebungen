@@ -17,10 +17,21 @@ int Read(char* FileName, int Anzahl, int* Values) {
         std::cout << "Die Datei konnte nicht geöffnet werden!\n";
         return -1;
     }
+    /*
+        Das hier ist unnötiger Bonus. Nur zum Abfangen von Fehlern, sollten unerwarteter Weise weniger als 100 (korrekte) Einträge in der Datei sein
+    */
     int count = 0;
     while (count < Anzahl && file >> Values[count]) {
         ++count;
     }
+    /* 
+        Hier die simplere Version, davon ausgehen dass genau $ANZAHL Einträge in $FILENAME sind
+    */
+    /*
+    for (int i = 0; i < Anzahl; ++i) {
+        file >> Values[i];
+    }
+    */
     file.close();
     return count;
 }
