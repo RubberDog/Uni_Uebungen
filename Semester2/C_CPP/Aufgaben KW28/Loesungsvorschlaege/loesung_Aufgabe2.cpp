@@ -33,7 +33,7 @@ int DummyRead(char* FileName) {
     {
         std::getline(file, line);
     }
-    return stoi(line); // stoi -> "string to integer"
+    return stoi(line); // stoi -> ">s<tring >to< >i<nteger"
 }
 
 int main() {
