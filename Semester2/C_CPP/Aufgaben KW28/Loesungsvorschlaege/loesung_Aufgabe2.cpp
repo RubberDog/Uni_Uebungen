@@ -33,6 +33,7 @@ int DummyRead(char* FileName) {
     {
         std::getline(file, line);
     }
+    file.close();
     return stoi(line); // stoi -> ">s<tring >to< >i<nteger"
 }
 
