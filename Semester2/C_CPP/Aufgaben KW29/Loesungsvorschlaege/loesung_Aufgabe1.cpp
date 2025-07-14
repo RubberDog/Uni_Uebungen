@@ -40,4 +40,7 @@ int main() {
     Punkt p4 = p2+p1;
     std::cout << "Mit operator+: \n";
     std::cout << "p4.x = " << p4.getX() << ", p4.y = " << p4.getY() << std::endl;
+    Punkt p5 = p2.operator+(p1);
+    std::cout << "Mit vollstaendiger Notation operator+: \n";
+    std::cout << "p4.x = " << p4.getX() << ", p4.y = " << p4.getY() << std::endl;
 }
