@@ -9,9 +9,8 @@
 
 ## Definieren Sie außerhalb der Klasse folgende Memberfunktionen:
 
-Addieren zweier Punkte (add)
-
-Operatorfunktion zur Verwendung des + Operators zum Addieren zweier Punkte 
+- Addieren zweier Punkte (add)
+- Operatorfunktion zur Verwendung des + Operators zum Addieren zweier Punkte 
 
 Erzeugen Sie sich im Hauptprogramm mehrere Objekte vom Typ Klasse punkt, die die implementierten Konstruktoren nutzen und rufen Sie alle Memberfunktionen auf.   
 
@@ -20,20 +19,16 @@ Die Operatorfunktion rufen Sie bitte einmal mit Operator auf und ein weiteres Ma
 
 # Aufgabe 2  
 
-## Deklarieren Sie eine Klasse punkt (für Raumkoordinaten x, y, z). Definieren Sie innerhalb der 
-Klasse
+## Deklarieren Sie eine Klasse punkt (für Raumkoordinaten x, y, z). Definieren Sie innerhalb der Klasse
 
-den Standardkonstruktor, 
-
-den Initialisierungskonstruktor und 
-
-den Destruktor. 
+- den Standardkonstruktor, 
+- den Initialisierungskonstruktor und 
+- den Destruktor. 
 
 ## Definieren Sie innerhalb der Klasse folgende Memberfunktionen: 
 
-Addieren zweier Punkte (add) 
-
-Operatorfunktion zur Verwendung des + Operators zum Addieren zweier Punkte 
+- Addieren zweier Punkte (add) 
+- Operatorfunktion zur Verwendung des + Operators zum Addieren zweier Punkte 
 
 Erzeugen Sie sich im Hauptprogramm mehrere Objekte Punkt, die die implementierten Konstruktoren nutzen und rufen Sie alle Memberfunktionen auf.   
 
@@ -47,13 +42,16 @@ Die Operatorfunktion rufen Sie bitte einmal mit Operator auf und ein weiteres Ma
 
 ## Definieren Sie innerhalb der Klasse  
 
-den Standardkonstruktor,
+- den Standardkonstruktor,
+- den Initialisierungskonstruktor und 
+- den Destruktor.  
 
-den Initialisierungskonstruktor und 
+## Definieren Sie außerhalb der Klasse folgende Memberfunktionen:  
 
-den Destruktor.  
-
-## Definieren Sie außerhalb der Klasse folgende Memberfunktionen:  - Einzahlen, Auszahlen, SetKontonummer, GetKontonummer  
+- Einzahlen
+- Auszahlen
+- SetKontonummer
+- GetKontonummer  
 
 Erzeugen Sie sich im Hauptprogramm zwei Instanzen der Klasse Konto (Konto01, Konto02) und benutzen Sie den Initialisierungskonstruktor. Rufen Sie für Konto01 die Memberfunktion Einzahlen und für Konto02 die Memberfunktion Auszahlen auf. 
 
@@ -64,15 +62,16 @@ Erzeugen Sie sich im Hauptprogramm zwei Instanzen der Klasse Konto (Konto01, Kon
 
 ## Definieren Sie innerhalb der Klasse 
 
-den Standardkonstruktor, 
-
-den Initialisierungskonstruktor und  
-
-den Destruktor. 
+- den Standardkonstruktor
+- den Initialisierungskonstruktor und  
+- den Destruktor. 
 
 ## Definieren Sie außerhalb der Klasse folgende Memberfunktionen:  
 
-SetAlter, GetAlter , SetName, GetName  
+- SetAlter
+- GetAlter
+- SetName
+- GetName  
 
 Eine Operatorfunktion zum Überladen des Operators << zum Setzen des Namens  
 
