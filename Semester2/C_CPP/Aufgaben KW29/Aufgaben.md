@@ -1,14 +1,11 @@
 
 # Aufgabe 1  
 
-## Deklarieren Sie eine Klasse punkt für Koordinaten in der Ebene (x, y). Definieren Sie innerhalb der 
-Klasse 
+## Deklarieren Sie eine Klasse punkt für Koordinaten in der Ebene (x, y). Definieren Sie innerhalb der Klasse 
 
-den Standardkonstruktor, 
-
-den Initialisierungskonstruktor und 
-
-den Destruktor. 
+- den Standardkonstruktor, 
+- den Initialisierungskonstruktor und 
+- den Destruktor. 
 
 ## Definieren Sie außerhalb der Klasse folgende Memberfunktionen:
 
