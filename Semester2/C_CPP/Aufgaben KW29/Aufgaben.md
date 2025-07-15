@@ -72,7 +72,6 @@ Erzeugen Sie sich im Hauptprogramm zwei Instanzen der Klasse Konto (Konto01, Kon
 - GetAlter
 - SetName
 - GetName  
-
-Eine Operatorfunktion zum Überladen des Operators << zum Setzen des Namens  
+- eine Operatorfunktion zum Überladen des Operators << zum Setzen des Namens  
 
 Erzeugen Sie sich im Hauptprogramm zwei Instanzen der Klasse Student (Student01, Student02) und rufen Sie für Student01 die Memberfunktion SetAlter, für Student02 die Memberfunktion GetAlter und für Student01 die Operatorfunktion << zum Setzen des Namens auf.  
