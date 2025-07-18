@@ -27,9 +27,8 @@ public:
         Note = note;
     }
 
-    ~Student() {
+    ~Student() = default;
 
-    }
     void SetAlter(int);
     void SetName(std::string);
     void operator<<(std::string);
