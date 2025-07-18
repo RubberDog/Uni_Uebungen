@@ -12,8 +12,7 @@ public:
         x = xVal;
         y = yVal;
     }
-    ~Punkt(){
-    }
+    ~Punkt() = default;
 
     Punkt add(const Punkt&);
     Punkt operator+(const Punkt&);
@@ -40,7 +39,7 @@ int main() {
     Punkt p4 = p2+p1;
     std::cout << "Mit operator+: \n";
     std::cout << "p4.x = " << p4.getX() << ", p4.y = " << p4.getY() << std::endl;
-    Punkt p5 = p2.operator+(p1);
+    Punkt p5 = p2 + p1;
     std::cout << "Mit vollstaendiger Notation operator+: \n";
-    std::cout << "p4.x = " << p4.getX() << ", p4.y = " << p4.getY() << std::endl;
+    std::cout << "p5.x = " << p5.getX() << ", p5.y = " << p5.getY() << std::endl;
 }
