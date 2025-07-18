@@ -21,9 +21,7 @@ public:
         Zaehler = zaehler;
         Nenner = nenner;
     }
-    ~Bruch() {
-
-    }
+    ~Bruch() = default;
 
     int getZaehler() {
         return Zaehler;
