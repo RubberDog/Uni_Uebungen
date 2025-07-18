@@ -17,9 +17,7 @@ public:
         kontoinhaber = inhaber;
         kontostand = stand;
     }
-    ~Konto() {
-
-    }
+    ~Konto() = default;
 
     void Einzahlen(double);
     void Auszahlen(double);
