@@ -13,8 +13,7 @@ public:
         gradzahl = wert;
     }
 
-    ~Temperatur(){
-    }
+    ~Temperatur() = default;
 
     double toFahrenheit();
     double toKelvin();
