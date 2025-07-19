@@ -6,13 +6,13 @@ Geben Sie über den Rückgabewert an, ob der Vorgang erfolgreich war (1) oder da
 
 Deklaration:
 
-cpp
-Kopieren
-Bearbeiten
+```
 int maxWert(int* pointer, int Anzahl, int& max);
+```
 b) Binden Sie die Funktion in ein Hauptprogramm ein und testen Sie diese mit einem Beispiel-Array.
 
 ## Aufgabe 2: Umwandlung von Zeichen in Großbuchstaben
+
 a) Schreiben Sie eine Funktion, die eine Zeichenkette durchläuft und alle Kleinbuchstaben in Großbuchstaben umwandelt.
 Geben Sie über den Rückgabewert die Anzahl der umgewandelten Zeichen zurück.
 
@@ -25,6 +25,7 @@ b) Rufen Sie die Funktion mit einer Beispielzeichenkette in main() auf.
 HINT: die funktion toupper() macht genau das für ein übergebenes Zeichen.
 
 ## Aufgabe 3: Fakultätsberechnung mit Überprüfung
+
 a) Schreiben Sie eine Funktion zur Berechnung der Fakultät einer Zahl (z. B. 5! = 120).
 Wird eine negative Zahl übergeben, soll die Funktion 0 zurückgeben, sonst die berechnete Fakultät als long long.
 
@@ -46,6 +47,7 @@ Von 9: 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1
 Die Fakultät von 0 ist IMMER 1.
 
 ## Aufgabe 4: Anzahl gerader Zahlen im Array
+
 a) Schreiben Sie eine Funktion, die in einem ganzzahligen Array die Anzahl gerader Zahlen zählt.
 Geben Sie diese Anzahl als Rückgabewert zurück.
 
