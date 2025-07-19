@@ -65,7 +65,7 @@ Definieren Sie außerhalb der Klasse folgende Memberfunktionen:
 
 - setKmStand, getKmStand
 - setModell, getModell
-- eine Operatorfunktion zum Überladen des << Operators zum Anzeigen der Autodaten
+- eine Operatorfunktion zum Überladen des << Operators zum Anzeigen der Autodaten // ACHTUNG: Friend-Operator. Wird im Studienbrief nicht erwähnt!
 
 Erzeugen Sie im Hauptprogramm zwei Instanzen der Klasse Auto. Setzen Sie für eines den Kilometerstand und für das andere das Modell. Verwenden Sie den überladenen << Operator zur Ausgabe der Daten.
 
