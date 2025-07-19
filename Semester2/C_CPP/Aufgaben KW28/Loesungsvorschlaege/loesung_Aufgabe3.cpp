@@ -22,6 +22,7 @@ int save(char* FileName, int Anzahl, int* Values){
         std::cout << "Konnte die Datei nicht oeffnen!" << std::endl;
         return -1;
     }
+    file << "MESSWERTTABELLE_01\n";
     for(int i = 0; i < Anzahl; i++) {
         file << Values[i] << "\n";
     }
