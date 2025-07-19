@@ -79,9 +79,9 @@ Geben Sie die Anzahl der Zeilen über den Rückgabewert zurück.
 
 Funktionsprototyp:
 
-´´´
+```
 int countLines(char* FileName);
-´´´
+```
 
 b) Integrieren Sie die Funktion in main(), geben Sie die ermittelte Zeilenanzahl auf dem Bildschirm aus.
 
@@ -91,9 +91,9 @@ Die Ausgabe erfolgt auf dem Bildschirm.
 
 Prototyp:
 
-´´´
+```
 int replaceAndPrint(char* FileName);
-´´´
+```
 b) Binden Sie die Funktion in main() ein und testen Sie sie mit einer selbst erstellten Datei (z. B. text.txt).
 
 ## Aufgabe 8: Einfache CSV-Datei lesen
@@ -103,9 +103,9 @@ Schreiben Sie eine Funktion, die diese Zahlen einzeln einliest und summiert.
 
 Prototyp:
 
-´´´
+```
 int sumCSV(char* FileName, int& Summe);
-´´´
+```
 b) Rufen Sie die Funktion in main() auf und geben Sie die Summe aus.
 
 ## Aufgabe 9: Namen in Datei speichern
@@ -115,9 +115,9 @@ Die Namen sollen durch ein Leerzeichen getrennt sein, z. B. Max Mustermann.
 
 Prototyp:
 
-´´´
+```
 int writeName(char* FileName, char* vorname, char* nachname);
-´´´
+```
 b) Binden Sie die Funktion in main() ein und testen Sie sie mit Beispielnamen.
 
 ## Aufgabe 10: Datei kopieren
@@ -126,10 +126,9 @@ a) Schreiben Sie eine Funktion, die den Inhalt einer Textdatei quelle.txt zeilen
 Der Rückgabewert soll 1 bei Erfolg, 0 bei Fehler sein.
 
 Prototyp:
-
-´´´
+```
 int copyFile(char* Quelle, char* Ziel);
-´´´
+```
 b) Rufen Sie die Funktion in main() auf und geben Sie Erfolg oder Fehler aus.
 
 # Klassen
