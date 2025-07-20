@@ -22,7 +22,7 @@ int toUpper(char* zeichenkette);
 ```
 b) Rufen Sie die Funktion mit einer Beispielzeichenkette in main() auf.
 
-HINT: die funktion toupper() macht genau das für ein übergebenes Zeichen. Benötigt in C++ den include von <cctype>
+HINT: die funktion toupper() macht genau das für ein übergebenes Zeichen. Benötigt in C++ den include von \<cctype\>
 
 ## Aufgabe 3: Fakultätsberechnung mit Überprüfung
 
