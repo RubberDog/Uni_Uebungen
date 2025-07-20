@@ -69,5 +69,6 @@ Definieren Sie außerhalb der Klasse folgende Memberfunktionen:
 
 Erzeugen Sie im Hauptprogramm zwei Instanzen der Klasse Auto. Setzen Sie für eines den Kilometerstand und für das andere das Modell. Verwenden Sie den überladenen << Operator zur Ausgabe der Daten.
 
- // ACHTUNG: Der Operator<< funktioniert ausschließlich als Friend-Operator. Wird im Studienbrief nicht erwähnt!
+// ACHTUNG: Der Operator<< funktioniert ausschließlich als Friend-Operator. Wird im Studienbrief nicht erwähnt!
+ 
 // Alternative: Bastelt eine einfach Funktion anzeigen() o.ä., die alle Informationen zu einem Objekt "Auto" ausgibt.
