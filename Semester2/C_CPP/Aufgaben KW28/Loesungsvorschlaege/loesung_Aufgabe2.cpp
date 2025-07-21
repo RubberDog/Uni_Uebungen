@@ -41,5 +41,8 @@ int main() {
     char FileName[] = "messwerte.dat";
     int AnzahlWerte = DummyRead(FileName);
     int *messw = new int[AnzahlWerte];
+    if (messw == nullptr ) {
+        std::cout << "Speicher konnte nicht reserviert werden!\n";
+    }
     std::cout << "In der Datei " << FileName << " befinden sich " << AnzahlWerte << " Messwerte. Viel Spass." << std::endl;
 }
