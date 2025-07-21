@@ -40,5 +40,6 @@ int DummyRead(char* FileName) {
 int main() {
     char FileName[] = "messwerte.dat";
     int AnzahlWerte = DummyRead(FileName);
+    int *messw = new int[AnzahlWerte];
     std::cout << "In der Datei " << FileName << " befinden sich " << AnzahlWerte << " Messwerte. Viel Spass." << std::endl;
 }
