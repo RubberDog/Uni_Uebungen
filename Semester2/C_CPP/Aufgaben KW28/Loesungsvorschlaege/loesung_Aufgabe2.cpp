@@ -44,5 +44,6 @@ int main() {
     if (messw == nullptr ) {
         std::cout << "Speicher konnte nicht reserviert werden!\n";
     }
+    delete[] messw;
     std::cout << "In der Datei " << FileName << " befinden sich " << AnzahlWerte << " Messwerte. Viel Spass." << std::endl;
 }
