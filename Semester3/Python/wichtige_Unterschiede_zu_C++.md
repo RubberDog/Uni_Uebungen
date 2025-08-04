@@ -21,7 +21,7 @@ for _ in range(anzahl):
 
 ## Variablen tauschen
 
-###C / C++
+### C / C++
 
 ```
 int a = 5;
