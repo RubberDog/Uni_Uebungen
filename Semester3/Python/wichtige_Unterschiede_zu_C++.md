@@ -1,3 +1,29 @@
+## cout / print
+
+### C
+
+irgendwas mit ```printf_s```
+wer benutzt das schon?
+
+### C++
+```
+std::cout << "Hier ist der Wert von x: " << x << ". und der Wert von y: " << y << std::endl;
+```
+
+### Python
+
+"alt" und nicht so schön:
+
+```
+print("Hier ist der Wert von x: " + str(x) + ", und der Wert von y: " + str(y))
+```
+
+neu und hübsch:
+
+```
+print(f"Hier ist der Wert von {x}, und der Wert von {y}")
+```
+
 ## Array (C) / Liste (py) in for-Loop befüllen;
 
 ### C / C++
