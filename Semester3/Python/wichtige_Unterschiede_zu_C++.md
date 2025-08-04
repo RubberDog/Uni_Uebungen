@@ -48,7 +48,7 @@ a, b = b, a
 
 
 
-## Array (C) / Liste (py) in for-Loop befüllen;
+## Array (C) / Liste (py) in for-Loop befüllen
 
 ### C / C++
 
@@ -83,7 +83,7 @@ text[0] = 'J';
 std::cout << text << std::endl;  // Funktioniert, ergibt "Jallo"
 ```
 
-ABER;
+aber;
 
 ```
 char* text = "Hallo";
@@ -98,7 +98,7 @@ text[0] = 'J';
 std::cout << text << std::endl;  // Ergibt: "Jallo"
 ```
 
-### Python:
+### Python
 
 Strings sind immutable (unveränderlich):
 
