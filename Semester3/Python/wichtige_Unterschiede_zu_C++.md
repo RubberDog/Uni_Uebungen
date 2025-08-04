@@ -111,5 +111,5 @@ zum "Ändern" müssen Strings neu erzeugt werden, dürfen dabei aber die alte Va
 
 ```
 text = "Hallo"
-text = "J" + text[1:]  # Klappt, ergibt: "Jallo"
+text = "J" + text[1:]  // Klappt, ergibt: "Jallo"
 ```
