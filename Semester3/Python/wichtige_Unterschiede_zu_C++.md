@@ -104,12 +104,12 @@ Strings sind immutable (unveränderlich):
 
 ```python
 text = "Hallo"
-text[0] = "J"   // Interpreter schreit vor Angst: TypeError: 'str' object does not support item assignment
+text[0] = "J"   # Interpreter schreit vor Angst: TypeError: 'str' object does not support item assignment
 ```
 
 zum "Ändern" müssen Strings neu erzeugt werden, dürfen dabei aber die alte Variable überschreiben:
 
 ```python
 text = "Hallo"
-text = "J" + text[1:]  // Klappt, ergibt: "Jallo"
+text = "J" + text[1:]  # Klappt, ergibt: "Jallo"
 ```
