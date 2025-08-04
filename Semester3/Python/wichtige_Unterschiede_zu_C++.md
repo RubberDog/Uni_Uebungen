@@ -7,7 +7,7 @@ irgendwas mit ```printf_s```
 wer benutzt das schon?
 
 ### C++
-```
+```cpp
 std::cout << "Hier ist der Wert von x: " << x << ". und der Wert von y: " << y << std::endl;
 ```
 
