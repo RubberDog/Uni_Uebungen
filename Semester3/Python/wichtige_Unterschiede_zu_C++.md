@@ -25,6 +25,29 @@ neu und hübsch:
 print(f"Hier ist der Wert von {x}, und der Wert von {y}")
 ```
 
+## Variablen tauschen
+
+### C / C++
+
+```
+int a = 5;
+int b = 10;
+int temp;
+
+temp = a;
+a = b;
+b = temp;
+```
+
+### Python
+```
+a = 5
+b = 10
+a, b = b, a
+```
+
+
+
 ## Array (C) / Liste (py) in for-Loop befüllen;
 
 ### C / C++
@@ -46,23 +69,47 @@ for _ in range(anzahl):
     zahlen.append(int(input("Gib eine Zahl ein: ")))
 ```
 
-## Variablen tauschen
+## Char-Arrays / Strings verändern
 
-### C / C++
+### C
+
+Kennt keine Strings. Vorsicht bei Char-Arrays - siehe folgendes:
+
+### C++
 
 ```
-int a = 5;
-int b = 10;
-int temp;
-
-temp = a;
-a = b;
-b = temp;
+char text[] = "Hallo";
+text[0] = 'J';  
+std::cout << text << std::endl;  // Funktioniert, ergibt "Jallo"
 ```
 
-### Python
+ABER;
+
 ```
-a = 5
-b = 10
-a, b = b, a
+char* text = "Hallo";
+text[0] = 'J';          // Undefined Behavior. SEGFAULT INCOMING.
+```
+
+Bei der Nutzung von Strings:
+
+```
+std::string text = "Hallo";
+text[0] = 'J'; 
+std::cout << text << std::endl;  // Ergibt: "Jallo"
+```
+
+### Python:
+
+Strings sind immutable (unveränderlich):
+
+```
+const std::string text = "Hallo";
+text[0] = 'J';  // Computer sagt nein. Interpreter schreit vor Angst.
+```
+
+zum "Ändern" müssen Strings neu erzeugt werden, dürfen dabei aber die alte Variable überschreiben:
+
+```
+text = "Hallo"
+text = "J" + text[1:]  # Klappt, ergibt: "Jallo"
 ```
