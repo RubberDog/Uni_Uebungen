@@ -15,7 +15,7 @@ std::cout << "Hier ist der Wert von x: " << x << ". und der Wert von y: " << y <
 
 "alt" und nicht so schön:
 
-```
+```python
 print("Hier ist der Wert von x: " + str(x) + ", und der Wert von y: " + str(y))
 ```
 
