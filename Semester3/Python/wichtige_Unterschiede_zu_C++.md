@@ -103,8 +103,8 @@ std::cout << text << std::endl;  // Ergibt: "Jallo"
 Strings sind immutable (unveränderlich):
 
 ```
-const std::string text = "Hallo";
-text[0] = 'J';  // Computer sagt nein. Interpreter schreit vor Angst.
+text = "Hallo"
+text[0] = "J"   // Interpreter schreit vor Angst: TypeError: 'str' object does not support item assignment
 ```
 
 zum "Ändern" müssen Strings neu erzeugt werden, dürfen dabei aber die alte Variable überschreiben:
