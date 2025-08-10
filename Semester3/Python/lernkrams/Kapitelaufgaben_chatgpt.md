@@ -1,5 +1,3 @@
-# Kapitel‑Plan: Python‑Übungen (ab 4.2.6)
-
 **Hinweis:** Keine Lösungen, nur Aufgaben mit Beispiel‑Inputs und erwarteten Outputs. Jede Aufgabe hat kleine Varianten, damit es nicht langweilig wird.
 
 ---
