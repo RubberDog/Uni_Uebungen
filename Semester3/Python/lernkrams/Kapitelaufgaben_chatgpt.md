@@ -139,7 +139,7 @@ N = 2
 
 Hint: Es geht hierbei darum, bei identischen Werten (2) den Key als Sortierfaktor zu nutzen
 
-Hinthint: Im großen und ganzen wie Aufgabe 2.
+Hinthint: Im großen und ganzen wie Aufgabe B2.
 
 ---
 
