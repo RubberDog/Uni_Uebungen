@@ -120,6 +120,7 @@ N = 10
 ```
 [("x", 5), ("y", 1)]
 ```
+Hint: "Umfang" meint hier den Umfang des Dictionary. 
 
 ### Aufgabe B4 – Stabiler Sortierschlüssel testen
 
