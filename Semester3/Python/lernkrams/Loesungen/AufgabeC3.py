@@ -8,8 +8,8 @@
 
 eingabe = "payload"
 
-def trim(word):
+def reverse(word):
     return(word[::-1])
 
 if __name__ == '__main__':
-    print(f"Trimmed: {trim(eingabe)}")
+    print(f"Reversed: {reverse(eingabe)}")
