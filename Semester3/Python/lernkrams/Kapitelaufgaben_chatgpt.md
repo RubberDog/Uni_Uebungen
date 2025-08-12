@@ -227,6 +227,12 @@ n = 12
 [4, 16, 36, 64, 100, 144]
 ```
 
+Erklärung dazu:
+- Zahlenreihe 1 bis n erzeugen
+- prüfen, ob Zahl gerade ist
+- wenn ja, quadrieren
+  
+
 ### Aufgabe D2 – Quiet Hours Filter (22:00–06:00)
 
 **Input:**
