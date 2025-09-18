@@ -1,17 +1,21 @@
 #!/bin/bash
 
-# ist im grossen und ganzne das watchfor-script von seite 36
+# ausgabe über aenderungen fehlt noch
 
 new=/tmp/users_new.$$
 old=/tmp/users_old.$$
 
 >$old
-
+i=1
 while true
     do
         who > $new
         diff $old $new
+        if [ $? == 0 ]
+        then
+            echo "Keine Aenderungen"
+        fi
         mv $new $old
+        echo "Angemeldete User: `who | wc -l`"
         sleep 60
-    done | awk '/>/ { $1 = "in: "; print }
-    /</ { $1 = "out: "; print } '
+    done
