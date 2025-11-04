@@ -38,3 +38,6 @@ int main() {
     }
     return 0;
 }
+
+# fd[0] = lesen
+# fd[1] = schreiben
