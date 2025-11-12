@@ -10,6 +10,7 @@ int counter = 0;
 void* thread_nolock(void* arg) {
     for (int i = 0; i < 1000000; i++) {
         counter++;
+        printf("Durchlauf #%d, Counter bei %d\n", i, counter);
     }
     printf("Counter: %d\n", counter);
     pthread_exit(NULL);
@@ -19,6 +20,7 @@ void* thread_lock(void* arg) {
     for (int i = 0; i < 1000000; i++) {
         pthread_mutex_lock(&lock);
         counter++;
+        printf("Durchlauf #%d, Counter bei %d\n", i, counter);
         pthread_mutex_unlock(&lock);
     }
     printf("Counter: %d\n", counter);
