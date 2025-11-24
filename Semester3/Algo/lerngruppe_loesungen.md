@@ -165,3 +165,11 @@ array fertig
 
 # 2
 ## a
+
+Array = [1,2,3,4,5,6,7,8], Pivot immer das erste Element
+
+dadurch gibt es nie ein linkes Teil-Array, ergo müssen n Durchläufe gemacht werden, in denen immer n -1 Elemente des rechten Teil-Array verglichen werden müssen
+
+Eigentlich hat Quicksort im "normalfall" eine laufzeitkomplexität von O(log(n)), da die Menge der zu sortierenden Elemente immer wieder halbiert wird. Hier passiert dies nicht, somit eine komplexität von O(n²)
+
+## b
