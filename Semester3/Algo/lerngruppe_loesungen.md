@@ -176,3 +176,26 @@ dadurch gibt es nie ein linkes Teil-Array, ergo müssen n Durchläufe gemacht we
 Eigentlich hat Quicksort im "normalfall" eine laufzeitkomplexität von O(log(n)), da die Menge der zu sortierenden Elemente immer wieder halbiert wird. Hier passiert dies nicht, somit eine komplexität von O(n²)
 
 ## b
+
+- Man nimmt das erste oder das letzte Element
+
+- Man nutzt das mittlere Element (Index!) des gesamten Array
+
+- "Median of three", es werden drei Elemente des Array ausgewählt - zufällig, oder klassischerweise das erste, das mittlere und letzte. Hiervon nimmt man den mittleren Wert und legt diesen als Pivot fest.
+
+Am sichersten gegen den worst-case ist hier median-of-three. Durch den Median von drei Elementen ist es statistisch sehr unwahrscheinlich, hier einen worst-case zu erreichen.
+
+Bei Vorsortierten Arrays wäre das erste oder letzte Element quasi ein garant für den Worst case, bei Wahl des Mittleren Elements bleibt eine höhere Gefahr für Worst Case als bei Median - hier gibt es nämlich garantiert einen kleineren Wert.
+
+## c
+
+Best-Case: O(n log n)
+- Jedes Array wird immer exakt in der Mitte geteilt
+
+Average-Case: O(n log n)
+- Der Durchschnitt teilt immer (etwa) in der Mitte, so dass die Laufzeit O(n log n) erhalten bleibt
+
+Worst-Case: O(n²)
+- Worst case haben wir ein vorsortiertes Array und wählen immer das erste oder letzte Element als Pivot. Somit gibt es keine Teilungen.
+
+## d 
