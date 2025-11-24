@@ -1,3 +1,53 @@
+# PDF
+
+## 1 
+
+### a
+
+```
+       (4)
+     /     \
+  (2)      (6)
+ /  \      /  \
+(1)  (3) (5) (7)
+```
+Dies ist nicht eindeutig.
+
+Aus einer einzelnen Traversierung lassen sich mehrere Bäume erstellen. Für eine eindeutige Zuordnung wird eine zweite Traversierung benötigt.
+
+### b
+
+## 2
+
+
+## 3
+
+### a
+
+```
+        10
+    /       \ 
+   3        16
+ /  \      /  \ 
+2    4    13   18
+         /  \
+        11  14
+```
+
+### b
+```
+               10
+          /          \
+         3           16
+        / \          /  \
+       2   4       13    18
+            \      /   \
+             9    11    14
+                   \    \
+                    12   15
+```
+
+
 # Aufgabe 1
 ## a (und b)
 
