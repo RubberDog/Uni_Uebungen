@@ -47,6 +47,7 @@ Aus einer einzelnen Traversierung lassen sich mehrere Bäume erstellen. Für ein
                     12   15
 ```
 
+# ChatGPT-Aufgaben
 
 # Aufgabe 1
 ## a (und b)
