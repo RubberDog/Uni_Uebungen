@@ -250,3 +250,18 @@ Worst-Case: O(n²)
 - Worst case haben wir ein vorsortiertes Array und wählen immer das erste oder letzte Element als Pivot. Somit gibt es keine Teilungen.
 
 ## d 
+
+
+## e
+
+1) Ist QuickSort stabil? Begründe!
+
+- Nein, QuickSort ist nicht stabil. Elemente mit gleichem Wert können ihre relative Reihenfolge verlieren.
+
+2) Ist QuickSort in-place? (Braucht er zusätzlichen Speicher?)
+
+- Ja, QuickSort arbeitet in-place. Es wird zusätzlicher Speicher auf dem Call-Stack benötigt, um die Daten der einzelnen rekursiven Aufrufe zu speichern
+
+4) Ist QuickSort rekursiv oder iterativ?
+
+- Quicksort ist rekursiv, weil "Divide and Conquer"
