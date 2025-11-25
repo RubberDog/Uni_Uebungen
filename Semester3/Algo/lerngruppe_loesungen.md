@@ -52,7 +52,7 @@ Aus einer einzelnen Traversierung lassen sich mehrere Bäume erstellen. Für ein
 # Aufgabe 1
 ## a (und b)
 
-Notiz; Lomuto-Verfahren. Hoare hätte zwei Pointer, einer von Links, einer von Rechts.
+Notiz; Lomuto-Verfahren. Hoare hätte einen Pointer von Links, einen von Rechts.
 
 ```
 Array: 5, 8, 2, 1, 7, 4, 6, 0, 3
