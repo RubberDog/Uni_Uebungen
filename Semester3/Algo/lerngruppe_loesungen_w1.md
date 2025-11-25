@@ -17,10 +17,70 @@ Aus einer einzelnen Traversierung lassen sich mehrere Bäume erstellen. Für ein
 
 ### b
 
+Kleinteilig, damit ich's mir merken kann;
+```
+Preorder -> erstes Element ist Wurzel
+Postorder -> letztes Element ist Wurzel
+Inorder -> Elemente links der identifizierten Wurzel sind der linke Teilbaum, rechts davon der rechte. 
+
+INORDER Traversierung: 1, 2, 3, 4, 5, 6, 7
+PREORDER Traversierung: 4, 2, 1, 3, 6, 5, 7
+
+4 ist die Wurzel - weil erstes Element in Preorder..
+Nachschauen in Inorder: 4 ist die Mitte. Drei Elemente vorher sind der linke Teilbaum, drei danach der rechte Teilbaum.
+In preorder splitten; die ersten drei Elemente (WICHTIG - Anzahl Elemente, nicht deren Werte!) nach der Wurzel sind der linke Teilbaum, die folgenden drei der rechte Teilbaum.
+Das jeweils erste Element ist der Knoten. Also:
+Linker Teilbaum: 2,1,3
+Rechter Teilbaum: 6,5,7
+Knoten sind somit: 2, 6
+Bei größeren Bäumen rekursiv so weiter verfahren
+Hier aber sehr einfach, weil preorder; 2, 6 sind Knoten, 1, 5 jeweils das linke Blatt, 3,7 das jeweils rechte Blatt.
+Rekunstruierter Baum ist also;
+
+      4
+    /   \
+  2       6
+ / \     / \
+1   3   5   7
+
+```
+Ist diese Rekonstruktion eindeutig?
+- Ja. Wird ein Baum aus zwei Traversierungen rekonstruiert, so ist er eindeutig. Es ist nicht möglich, dass zwei Traversierungen korrekt sind und dennoch mehrere Lösungen möglich sind.
+  
+
 ## 2
 
+```
+INORDER: D, G, B, A, H, E, I, C, F
+POSTORDER: G, D, B, H, I, E, F, C, A
+
+Wurzel = A
+Teilbaum links (post): G, D, B
+Teilbaum links (in): D, G, B
+
+Teilbaum rechts (post): H, I, E, F, C
+Teilbaum rechts (in): H, E, I, C, F
+Knoten: C und B
+
+Wichtig!
+linker Baum hat in pre- und postorder "B" als letztes Element
+Somit gibt es links KEINE zwei Blätter, da rechts vom identifizierten Knoten nichts ist
+D also wieder ein Knoten - und wichtig, inorder kommt G nach dem D, d.h. G kann KEIN linkes Blatt von D sein
+
+rechts bei inroder: H, E, I, C, F
+C ist knoten, also Teilbäume links: H, E, I - rechts F
+
+          A
+       /     \
+     B        C
+   /         /  \
+  D         E    F
+   \      /  \
+    G    H    I
+```
 
 ## 3
+
 
 ### a
 
