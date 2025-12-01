@@ -30,7 +30,7 @@ Für Median of three tauscht man als erstes das gewählte Element mit dem letzte
 
 Dann werden zwei Zeiger i und j genutzt. Beide starten vorn - im Normalfall auf Array[0] für i, Array[1] für j. Nutzt man das erste Element als Pivot, starten beide je 1 Element weiter.
 
-i bleibt an seiner Position, j läuft nach rechts und vergleicht, ob das aktuelle Element < i ist. Wenn ja, tauschen beide.
+i bleibt an seiner Position, j läuft nach rechts und vergleicht, ob das aktuelle Element < Pivot ist. Wenn ja, tauschen beide.
 
 i wird dann eine Position weiter gesetzt, j läuft ab seiner letzten Position weiter.
 
