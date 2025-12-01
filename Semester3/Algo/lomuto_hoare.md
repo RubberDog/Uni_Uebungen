@@ -10,11 +10,11 @@ Bestimmungsart des Pivot-Elementes ist egal.
 
 Wir haben zwei Zeiger, i und j.
 
-i beginnt am Anfang des Array und fährt nach rechts. Es stoppt beim ersten Element das größer ODER gleich dem Pivot ist. 
+i beginnt am Anfang des Array (Array[0]) und fährt nach rechts. Es stoppt beim ersten Element das größer ODER gleich dem Pivot ist. 
 
 Wenn wir - wie in der Aufgabe - immer das erste Element des Array als Pivot nehmen, stoppt i bereits hier!
 
-Danach läuft j los - es startet am Ende des Array und fährt nach links. j stoppt, wenn es ein Element kleiner ODER gleich Pivot findet.
+Danach läuft j los - es startet am Ende des Array (Array[n]) und fährt nach links. j stoppt, wenn es ein Element kleiner ODER gleich Pivot findet.
 
 Die beiden Elemente werden getauscht.
 
