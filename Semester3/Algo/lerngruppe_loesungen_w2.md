@@ -66,7 +66,7 @@ voller heap;
 |   fakt := fakt * n | k | 2.3 + 1.0 | k x 3.3 | n x Zuweisung und n mal multiplikation |
 |   n := n-1 | k | 1.4 + 1.0 | k x 2.4 | n mal Zuweisung und subtraktion |
 |  end - while |  |   |   |  |
-| Summe | 1 + 7.2 k = k |   | O(n)  | Konstante sind egal, solang es nicht ausschließlich "1" ist. |
+| Summe | 1 + 7.2 k |   | 1 + 7.2k -> O(n)  | Ergebnis FA -> 1 + 7.2k, GA -> O(n) |
 
 
 
@@ -132,4 +132,4 @@ Es sei der folgende Algorithmus zur Berechnung der n-ten Potenz einer Zahl x (al
 |  n := n / 2 | k | 9.0 | | |
 |  x := x * x | k | 3.3 | | |
 | end -- while |  | | | |
-| Summe | 1.0 + (k+1) * 1.5 + k * 1.5 + k * 3.3 + 9.0 * k + 3.3 * k | | 2.5 + 18.6k -> O(log(n)) | Da die Schleifendurchläufe nach dem end -- if IMMER halbiert werden|
+| Summe | 1.0 + (k+1) * 1.5 + k * 1.5 + k * 3.3 + 9.0 * k + 3.3 * k | | FA: 2.5 + 18.6k -> GA: O(log(n)) | Da die Schleifendurchläufe nach dem end -- if IMMER halbiert werden|
