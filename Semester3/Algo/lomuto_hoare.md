@@ -18,7 +18,7 @@ Danach läuft j los - es startet am Ende des Array (Array[n]) und fährt nach li
 
 Die beiden Elemente werden getauscht.
 
-Danach läuft i wieder weiter bis zu einem Element >= Pivot. danach wieder j bis <= Pivot, und so weiter.
+Danach läuft i wieder weiter bis zu einem Element >= Pivot, ist dieses gefunden wieder j bis <= Pivot, und so weiter.
 
 Der Durchlauf endet, wenn beide Zeiger auf das gleiche Element zeigen - dieser Durchlauf ist dann fertig, Quicksort wird rekursiv auf den linken- und rechten Teil aufgerufen.
 
