@@ -62,10 +62,10 @@ voller heap;
 | Algorithmus |  Anzahl | Gewicht | Gesamt = Anzahl * Gewicht | Kommentar |
 | --------- |:---|:---------|:-----|:---|
 | fakt := 1 | 1 | 1.0 | 1 x 1.0 | 1x Zuweisung |
-|  while n > 0 | k + 1 | 1,5 | n x 1.5 | n x Vergleich |
-|   fakt := fakt * n | k | 2.3 + 1.0 | n x 3.3 | n x Zuweisung und n mal multiplikation |
-|   n := n-1 | k | 1.4 + 1.0 | n x 2.4 | n mal Zuweisung und subtraktion |
-|  end - while | 1 |   |   | nix |
+|  while n > 0 | k + 1 | 1,5 | k x 1.5 | n x Vergleich |
+|   fakt := fakt * n | k | 2.3 + 1.0 | k x 3.3 | n x Zuweisung und n mal multiplikation |
+|   n := n-1 | k | 1.4 + 1.0 | k x 2.4 | n mal Zuweisung und subtraktion |
+|  end - while |  |   |   |  |
 | Summe | 1 + 7.2 k = k |   | O(n)  | Konstante sind egal, solang es nicht ausschließlich "1" ist. |
 
 
