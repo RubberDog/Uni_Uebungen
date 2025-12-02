@@ -160,6 +160,25 @@ Benötigt wird er für die Kommandos `mount` und `umount` um sie einzuhängen un
 Mit dem ersten Parameter wird ein neues Verzeichnis mit dem Parameter 
 als Namen angelegt. Der zweite Parameter wird als Namen für einen zu erstellenden Link verwendet. Der Link zeigt auf das gerade erstellte Verzeichnis. Die Art des Links kann selbst gewählt werden. 
 
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main(int argc, char **argv) {
+    if (argc != 3) {
+        printf("Usage: linky <source> <destination> || Hint: source will be created.\n");
+        exit(1);
+    }
+
+    mkdir(argv[1], 0755);
+    symlink(argv[1], argv[2]);
+    return 0;
+}
+```
+
 ### 12. Schreiben Sie ein C Programm, das aus einer Datei das 10. Zeichen ausliest, ohne die vorherigen Zeichen zu lesen. 
 Der Dateiname wird als Kommandozeilenparameter übergeben. Das gelesene Zeichen soll als Dezimalzahl auf 
 der Standardausgabe ausgegeben werden. Die Datei wird danach geschlossen und das Programm beendet sich. Enthält die Datei keine 10 Zeichen, 
