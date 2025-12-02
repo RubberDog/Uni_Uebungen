@@ -19,8 +19,7 @@ Shell <> Anwendungen (User Command Interface)
 
 ```
 
-### 2. Nennen Sie fünf typische Verzeichnisse direkt aus dem UNIX Root Verzeich
-nis oder aus Unterverzeichnissen und deren typischen Inhalt bzw. Aufgabe!  
+### 2. Nennen Sie fünf typische Verzeichnisse direkt aus dem UNIX Root Verzeichnis oder aus Unterverzeichnissen und deren typischen Inhalt bzw. Aufgabe!  
 
 /etc/ - Systemweite Konfigurationsdateien, z.b. /etc/passwd
 /home/ - Home-Verzeichnisse der Nutzer, Nutzerdaten
@@ -28,13 +27,13 @@ nis oder aus Unterverzeichnissen und deren typischen Inhalt bzw. Aufgabe!
 /bin/ - Systemweite binaries, ls / cp / mv
 /dev/ - Gerätedateien, Zugriffspunkte für Hardware
 
-### 3. Schreiben Sie ein Shell-Script mit dem Namen myquestion. Dieses Script 
-erhält als Parameter den Text einer Frage, die mit ‚Ja‘ oder ‚Nein‘ beantwortet werden kann. Antwortet der Benutzer mit Ja, so liefert das Script den 
+### 3. Schreiben Sie ein Shell-Script mit dem Namen myquestion. 
+Dieses Script erhält als Parameter den Text einer Frage, die mit ‚Ja‘ oder ‚Nein‘ beantwortet werden kann. Antwortet der Benutzer mit Ja, so liefert das Script den 
 Rückgabewert 0, bei Nein wird 1 geliefert, andernfalls erscheint die Frage 
 noch einmal. 
 
-### 4. Schreiben Sie ein Shell-Script, mit dem Sie eine Datei löschen können. Die 
-zu löschende Datei soll als Parameter beim Aufruf mitgegeben werden. Vor 
+### 4. Schreiben Sie ein Shell-Script, mit dem Sie eine Datei löschen können. 
+Die zu löschende Datei soll als Parameter beim Aufruf mitgegeben werden. Vor 
 dem Löschen soll nachgefragt werden, ob die Datei tatsächlich gelöscht 
 werden soll. Rufen Sie dazu das oben erstellte Skript auf und verwenden 
 dessen Rückgabewert als Entscheidung für das Löschen/Nicht-Löschen. 
@@ -65,8 +64,8 @@ Beenden auf das Ende des Sohnprozesses.
 pid_t = pid
 ```
 
-### 7. Schreiben Sie ein Programm, das zwei Threads startet. Beide Threads ge
-ben pro Sekunde ihren eindeutigen Namen plus jeweils eine eigene fortlau
+### 7. Schreiben Sie ein Programm, das zwei Threads startet. 
+Beide Threads geben pro Sekunde ihren eindeutigen Namen plus jeweils eine eigene fortlau
 fende Zahl aus. Stellen Sie sicher, dass die Ausgabe von einem Thread 
 immer vollständig erfolgt, d. h. die Ausgaben von beiden Threads nicht ge
 mischt werden. 
@@ -92,7 +91,7 @@ als Namen angelegt. Der zweite Parameter wird als Namen für einen zu er
 stellenden Link verwendet. Der Link zeigt auf das gerade erstellte Verzeich
 nis. Die Art des Links kann selbst gewählt werden. 
 
-### 12. Schreiben Sie ein C Programm, das aus einer Datei das 10. Zeichen ausliest, 
-ohne die vorherigen Zeichen zu lesen. Der Dateiname wird als Kommandozeilenparameter übergeben. Das gelesene Zeichen soll als Dezimalzahl auf 
+### 12. Schreiben Sie ein C Programm, das aus einer Datei das 10. Zeichen ausliest, ohne die vorherigen Zeichen zu lesen. 
+Der Dateiname wird als Kommandozeilenparameter übergeben. Das gelesene Zeichen soll als Dezimalzahl auf 
 der Standardausgabe ausgegeben werden. Die Datei wird danach geschlossen und das Programm beendet sich. Enthält die Datei keine 10 Zeichen, 
 wird eine Fehlermeldung ausgegeben.
