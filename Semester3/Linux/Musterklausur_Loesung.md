@@ -61,12 +61,41 @@ Sohnprozess fertig, beendet er sich sofort. Der Vaterprozess wartet mit dem
 Beenden auf das Ende des Sohnprozesses. 
 
 ```
-pid_t = pid
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+
+
+int main() {
+    pid_t pid;
+    pid = fork();
+
+    if (pid < 0) {
+        perror("fork");
+        exit(1);
+    }
+
+    if (pid == 0) {
+        for (int i = 1; i <= 1000; i += 2) {
+            printf("I is son - count %d\n", i);
+        }
+        exit(0);
+    } else {
+        for (int i = 0; i <= 1000; i += 2) {
+            printf("Daddy is here - count %d\n", i);
+            }
+        wait(NULL);
+        printf("Son gone. I go.");
+    }
+    exit(0);
+}
+
 ```
 
 ### 7. Schreiben Sie ein Programm, das zwei Threads startet. 
-Beide Threads geben pro Sekunde ihren eindeutigen Namen plus jeweils eine eigene fortlau
-fende Zahl aus. Stellen Sie sicher, dass die Ausgabe von einem Thread 
+Beide Threads geben pro Sekunde ihren eindeutigen Namen plus jeweils eine eigene fortlaufende Zahl aus. Stellen Sie sicher, dass die Ausgabe von einem Thread 
 immer vollständig erfolgt, d. h. die Ausgaben von beiden Threads nicht ge
 mischt werden. 
 
