@@ -169,7 +169,7 @@ als Namen angelegt. Der zweite Parameter wird als Namen für einen zu erstellend
 
 int main(int argc, char **argv) {
     if (argc != 3) {
-        printf("Usage: linky <source> <destination> || Hint: source will be created.\n");
+        printf("Usage: ./linky <source> <destination> || Hint: source will be created.\n");
         exit(1);
     }
 
