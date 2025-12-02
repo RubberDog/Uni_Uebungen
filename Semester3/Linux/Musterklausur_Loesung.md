@@ -2,7 +2,7 @@
 
 ### 1. Skizzieren Sie das UNIX Schichtenmodell! Kennzeichnen und benennen Sie 
 die drei Schnittstellen zum Betriebssystem. 
-
+```
 Anwendungen
 ^       ^
 Systemprogramme/Shell
@@ -16,6 +16,8 @@ Schnittstellen;
 Hardware <> Kernel (HAL -> Hardware Abstraction Layer)
 Kernel <> Systemprogramme/Shell (SCI -> System Call Interface)
 Shell <> Anwendungen (User Command Interface)
+
+```
 
 ### 2. Nennen Sie fünf typische Verzeichnisse direkt aus dem UNIX Root Verzeich
 nis oder aus Unterverzeichnissen und deren typischen Inhalt bzw. Aufgabe!  
