@@ -96,8 +96,50 @@ int main() {
 
 ### 7. Schreiben Sie ein Programm, das zwei Threads startet. 
 Beide Threads geben pro Sekunde ihren eindeutigen Namen plus jeweils eine eigene fortlaufende Zahl aus. Stellen Sie sicher, dass die Ausgabe von einem Thread 
-immer vollständig erfolgt, d. h. die Ausgaben von beiden Threads nicht ge
-mischt werden. 
+immer vollständig erfolgt, d. h. die Ausgaben von beiden Threads nicht gemischt werden. 
+
+```
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <pthread.h>
+
+pthread_mutex_t printlock = PTHREAD_MUTEX_INITIALIZER;
+
+
+void* thread_func(void* arg) {
+    const char* name = (const char*)arg;
+    for (int i = 0; i < 5; i++) {
+        pthread_mutex_lock(&printlock);
+        printf("%s run %d\n", name, i);
+        pthread_mutex_unlock(&printlock);
+        sleep(1);
+    }
+    return NULL;
+}
+
+int main(void) {
+    pthread_t t1, t2;
+
+    if (pthread_create(&t1, NULL, thread_func, "Thread 1") != 0) {
+        perror("pthread_create t1");
+        exit(EXIT_FAILURE);
+    }
+
+    if (pthread_create(&t2, NULL, thread_func, "Thread 2") != 0) {
+        perror("pthread_create t2");
+        exit(EXIT_FAILURE);
+    }
+
+    pthread_join(t1, NULL);
+    pthread_join(t2, NULL);
+
+    pthread_mutex_destroy(&printlock);
+    printf("jobs done. byebye...\n");
+    return 0;
+}
+```
 
 ###  8. Was ist eine race condition? Was ist eine critical section? 
 
