@@ -158,9 +158,7 @@ Benötigt wird er für die Kommandos `mount` und `umount` um sie einzuhängen un
 
 ### 11. Schreiben Sie ein C Programm, das 2 Kommandozeilenparameter erhält. 
 Mit dem ersten Parameter wird ein neues Verzeichnis mit dem Parameter 
-als Namen angelegt. Der zweite Parameter wird als Namen für einen zu er
-stellenden Link verwendet. Der Link zeigt auf das gerade erstellte Verzeich
-nis. Die Art des Links kann selbst gewählt werden. 
+als Namen angelegt. Der zweite Parameter wird als Namen für einen zu erstellenden Link verwendet. Der Link zeigt auf das gerade erstellte Verzeichnis. Die Art des Links kann selbst gewählt werden. 
 
 ### 12. Schreiben Sie ein C Programm, das aus einer Datei das 10. Zeichen ausliest, ohne die vorherigen Zeichen zu lesen. 
 Der Dateiname wird als Kommandozeilenparameter übergeben. Das gelesene Zeichen soll als Dezimalzahl auf 
