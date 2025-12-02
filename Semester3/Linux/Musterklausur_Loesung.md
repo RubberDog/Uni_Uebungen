@@ -54,8 +54,8 @@ Erzeugung / Kosten
 - Erzeugung und wechsel bei Threads ist performanter
 
 
-### 6. Schreiben Sie ein C-Programm, das einen Vater- und einen Sohnprozess 
-startet. Vater und Sohn durchlaufen jeweils eine Schleife bis 1000, wobei 
+### 6. Schreiben Sie ein C-Programm, das einen Vater- und einen Sohnprozess startet. 
+Vater und Sohn durchlaufen jeweils eine Schleife bis 1000, wobei 
 der Vater die geraden und der Sohn die ungeraden Zahlen ausgibt. Ist der 
 Sohnprozess fertig, beendet er sich sofort. Der Vaterprozess wartet mit dem 
 Beenden auf das Ende des Sohnprozesses. 
