@@ -1,21 +1,19 @@
 #!/bin/bash
 
-# ausgabe über aenderungen fehlt noch
+previous=$(who | wc -l)
 
-new=/tmp/users_new.$$
-old=/tmp/users_old.$$
+while true; do
+    current=$(who | wc -l)
 
->$old
-i=1
-while true
-    do
-        who > $new
-        diff $old $new
-        if [ $? == 0 ]
-        then
-            echo "Keine Aenderungen"
-        fi
-        mv $new $old
-        echo "Angemeldete User: `who | wc -l`"
-        sleep 60
-    done
+    aenderung=$(( current - previous))
+
+    if [ $aenderung -lt 0 ]; then
+        echo "Es haben sich $aenderung User abgemeldet. Aktuell sind $current online."
+    elif [ $aenderung -gt 0 ]; then
+        echo "Es haben sich $aenderung User angemeldet. Aktuell sind $current online."
+    elif [ $aenderung -eq 0 ]; then
+        echo "Keine Änderung der Userzahl."
+    fi
+    previous=$current
+    sleep 3
+done
