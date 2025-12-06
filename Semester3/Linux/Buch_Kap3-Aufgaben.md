@@ -18,7 +18,7 @@
 
 10. Schreiben Sie ein Script "doku", das Ihnen wesentliche Konfigurationsdateien des Unix-Systems formatiert mit pr (zum Druck) ausgibt. Darunter fallen z.B.:
 ```
-/etc/detaulfrouter (Solaris)
+/etc/defaultrouter (Solaris)
 /etc/fstab
 /etc/hosts
 /etc/inetd.conf
