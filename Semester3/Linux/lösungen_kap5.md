@@ -29,3 +29,7 @@ P1 ist dran, liest die Sperrvariable - ist noch auf 1, obwohl kein Prozess im kr
 ### 6
 
 [Link zum Code der Aufgabe](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/kap5_6-inc-counter.c)
+
+### 7
+
+[Link zum Code der Aufgabe](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/kap5_7-inc-mutex)
