@@ -43,7 +43,7 @@ Benutzen Sie die altbekannte Variable `an_der_Reihe` und eine Integer-Variable `
 ### 4
 
 Schreiben Sie ein Programmfragment in Pseudocode. Benutzen Sie Semaphore mit DOWN- und UP-Operationen. Folgendes soll realisiert werden:
-- Ein Prozess P1 errechnet ein Ergenibs, das von Prozess P2 weiterbenutzt werden soll.
+- Ein Prozess P1 errechnet ein Ergebnis, das von Prozess P2 weiterbenutzt werden soll.
 - Prozess P2 kann aber nicht ausgeführt werden, bevor das Ergebnis vorliegt.
 
 Hinweis:
