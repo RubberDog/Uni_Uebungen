@@ -8,7 +8,7 @@ Eine gemeinsam benutzte Variable (Sperrvariable, lock variable) wird mit 0 initi
 
 Warum ist dies keine Lösung für das Problem des wechselseitigen Ausschlusses?
 
-[Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/loesung_5_1.md)
+[Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/texte/loesung_5_1.md)
 
 ### 2
 
@@ -34,7 +34,7 @@ Entwickeln Sie ein Szenario, das folgende Behauptung belegt:
 
 Wenn ein Prozess wesentlich langsamer als der andere ist, wird der schnelle Prozess blockiert, obwohl sich kein Prozess in einem kritischen Bereich befindet.
 
-[Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/loesung_5_2.md)
+[Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/texte/loesung_5_2.md)
 
 ### 3
 
