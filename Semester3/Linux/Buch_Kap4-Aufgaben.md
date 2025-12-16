@@ -1,5 +1,7 @@
 1. Schreiben Sie ein C-Programm,. das einen Vater und einen Sohnprozess startet. Vater und Sohn durchlaufen jeweils eine Schleife bis 20.000, wobei der Vater die gerade und der Sohn die ungeraden Zahlen ausgibt. Schauen Sie sich mit ps an, welche Prozesse entstehen und wie sie zusammenhängen.
 
+[Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/father_and_son.c)
+
 2. Schreiben Sie einen eigenen kleinen Kommandointerpreter, so wie im Beispiel dieses Kapitels. Experimentieren Sie mit dem Programm, indem Sie Versionen testenen, in denen wait und exit fehlen.
 
 3. Schreiben Sie ein C-Programm, das eine Pipe realisiert. Ein Sohnprozess soll EU-Beträge in die Pipe schreiben, ein anderer Sohnprozess soll die EU-Beträge mit 16% Umsatzsteuer versehen und diese Ausgeben.
