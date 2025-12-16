@@ -85,6 +85,8 @@ Verbessern Sie die Zählerklasse aus Aufgabe 6, so dass ein korrektes Funktionie
 
 Lösen Sie die Aufgaben 6 und 7 auch mit POSIX-Threads in C.
 
+`Nö, sind bereits POSIX-Threads`
+
 ### 9
 
 Entwerfen Sie ein kleines Programmfragment, in dem Deadlocks auftreten können.
