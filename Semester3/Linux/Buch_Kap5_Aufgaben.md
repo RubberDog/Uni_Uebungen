@@ -8,6 +8,8 @@ Eine gemeinsam benutzte Variable (Sperrvariable, lock variable) wird mit 0 initi
 
 Warum ist dies keine Lösung für das Problem des wechselseitigen Ausschlusses?
 
+[Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/loesung_5_1.md)
+
 ### 2
 
 Schauen Sie sich die Lösung des Strikten Alternierens zur Realisierung des wechselseitigen Ausschlusses an:
@@ -32,6 +34,8 @@ Entwickeln Sie ein Szenario, das folgende Behauptung belegt:
 
 Wenn ein Prozess wesentlich langsamer als der andere ist, wird der schnelle Prozess blockiert, obwohl sich kein Prozess in einem kritischen Bereich befindet.
 
+[Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/loesung_5_2.md)
+
 ### 3
 
 Geben Sie ein Codesegment für das Strikte Alternieren für n Prozesse an.
@@ -39,6 +43,8 @@ Geben Sie ein Codesegment für das Strikte Alternieren für n Prozesse an.
 Hinweis:
 
 Benutzen Sie die altbekannte Variable `an_der_Reihe` und eine Integer-Variable `anzahl_Prozesse`, die den Wert n bekommt. Benutzen Sie auch den Modulo-Operator.
+
+[Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/kap5_3_strikt_alternieren.c)
 
 ### 4
 
@@ -67,9 +73,13 @@ Schreiben Sie eine Klasse, die für ihre Objekte die Methoden `increment-Count()
 
 Demonstrieren Sie, dass es beim Unterlassen von besonderen Schutzmaßnahmen zu Wettlaufbedingungen kommt, die zu einem falschen Zählerergebnis führen.
 
+[Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/kap5_6-inc-counter.c)
+
 ### 7
 
 Verbessern Sie die Zählerklasse aus Aufgabe 6, so dass ein korrektes Funktionieren garantiert ist.
+
+[Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/kap5_7-inc-mutex)
 
 ### 8
 
@@ -78,6 +88,8 @@ Lösen Sie die Aufgaben 6 und 7 auch mit POSIX-Threads in C.
 ### 9
 
 Entwerfen Sie ein kleines Programmfragment, in dem Deadlocks auftreten können.
+
+[Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/kap5_9-deadlock.c)
 
 ### 10
 
