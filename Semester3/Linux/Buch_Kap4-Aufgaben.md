@@ -1,45 +1,5 @@
 1. Schreiben Sie ein C-Programm,. das einen Vater und einen Sohnprozess startet. Vater und Sohn durchlaufen jeweils eine Schleife bis 20.000, wobei der Vater die gerade und der Sohn die ungeraden Zahlen ausgibt. Schauen Sie sich mit ps an, welche Prozesse entstehen und wie sie zusammenhängen.
 
-```
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <sys/wait.h>
-
-pid_t pid;
-
-int main() {
-    pid = fork();
-    if (pid < 0) {
-        perror("fork");
-        exit(1);
-    }
-    if (pid == 0) {
-        for (int i = 1; i <= 20000; i += 2) {
-            printf("Son: %d\n", i);
-        }
-        sleep(5); // damit ich mir via `ps` anschauen kann, was passiert.. ;)
-        exit(0);
-    } else {
-        for (int i = 0; i <= 20000; i += 2) {
-            printf("Father: %d\n", i);
-        }
-        wait(NULL);
-    }
-    exit(0);
-}
-
----------------
-
-Zusammenhang via `ps -xo pid,ppid,tty,stat,cmd | grep fs`
-   2134    1532 pts/0    S+   ./fs
-   2135    2134 pts/0    S+   ./fs
-
-```
-
-
-
 2. Schreiben Sie einen eigenen kleinen Kommandointerpreter, so wie im Beispiel dieses Kapitels. Experimentieren Sie mit dem Programm, indem Sie Versionen testenen, in denen wait und exit fehlen.
 
 3. Schreiben Sie ein C-Programm, das eine Pipe realisiert. Ein Sohnprozess soll EU-Beträge in die Pipe schreiben, ein anderer Sohnprozess soll die EU-Beträge mit 16% Umsatzsteuer versehen und diese Ausgeben.
