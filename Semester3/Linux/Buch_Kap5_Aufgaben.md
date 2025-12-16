@@ -79,7 +79,7 @@ Demonstrieren Sie, dass es beim Unterlassen von besonderen Schutzmaßnahmen zu W
 
 Verbessern Sie die Zählerklasse aus Aufgabe 6, so dass ein korrektes Funktionieren garantiert ist.
 
-[Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/kap5_7-inc-mutex)
+[Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/kap5_7-inc-mutex.c)
 
 ### 8
 
