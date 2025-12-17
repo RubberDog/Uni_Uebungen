@@ -6,6 +6,8 @@
 
 3. Schreiben Sie ein C-Programm, das eine Pipe realisiert. Ein Sohnprozess soll EU-Beträge in die Pipe schreiben, ein anderer Sohnprozess soll die EU-Beträge mit 16% Umsatzsteuer versehen und diese Ausgeben.
 
+[Link zum Code](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/kap4_3_euro-pipe.c)
+
 4. Realisieren Sie Übung 3 mit einer Named Pipe. Hinweis: Schauen Sie sich die Systemaufrufe read und write im UNIX-Manual an.
 
 5. Diese Übung widmet sich shared Memory. Schreiben Sie zwei Programm mit den Namen ausgabe.c und aendern.c. Diese Programme sollen ein Shared Memory-Segment benutzen, das ein Zeichen (char) eine eine Zahl (integer) enthält. ausgabe.c gibt das Zeichen so oft aus, wie die Zahl angibt. Das Programm aendern.c liest einen char und einen int aus der Kommandozeile und schreibt beides in Shared Memory.
