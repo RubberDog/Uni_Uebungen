@@ -11,6 +11,8 @@ der Sohn alle ungeraden Zahlen bis 1000 ausgibt,
 
 der Vater wartet, bis der Sohn beendet ist.
 
+[Link zum Code](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/gpt_A1__f_a_s.c)
+
 ---------------------------
 
 ⚙️ Aufgabe 2 – Zwei Kinder
@@ -28,6 +30,8 @@ und gibt dann „Alle Kinder beendet“ aus.
 
 → Ziel: Du lernst wait() mehrfach zu nutzen (oder waitpid()).
 
+[Link zum Code](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/gpt_A2__two_sons.c)
+
 ---------------------------
 
 💬 Aufgabe 3 – Kind mit Rückgabewert
@@ -42,6 +46,8 @@ Gib im Vaterprozess die empfangene Summe aus.
 
 → Ziel: Kommunikation Vater ↔ Kind über Exit-Status.
 
+[Link zum Code](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/gpt_A3__exit_comms.c)
+
 ---------------------------
 
 🧮 Aufgabe 4 – Kommunikation über Pipe
@@ -55,6 +61,8 @@ Kindprozess liest aus der Pipe und gibt den Text aus.
 → Ziel: Grundlagen der Interprozesskommunikation (IPC).
 
 (Wenn du magst, kann ich dir hier später zeigen, wie du eine „Pipe mit zwei Richtungen“ machst — also Vater ↔ Sohn beidseitig.)
+
+[Link zum Code](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/gpt_A4__pipe_comms.c)
 
 ---------------------------
 
@@ -90,6 +98,8 @@ Verwende eine Mutex, damit keine Zeilen durcheinander geraten.
 
 → Ziel: Grundstruktur von Threads + Synchronisation.
 
+[Link zum Code](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/gpt_B1__two_threads.c)
+
 ---------------------------
 
 🔢 Aufgabe 2 – Gemeinsamer Zähler (Race Condition)
@@ -103,6 +113,8 @@ Gib am Ende den Wert von counter aus.
 Vergleiche Ergebnis mit und ohne pthread_mutex_lock().
 
 → Ziel: Race Condition verstehen.
+
+[Link zum Code](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/gpt_B2__race_condition.c)
 
 ---------------------------
 
@@ -129,6 +141,8 @@ Thread 1 zählt bis 5, Thread 2 soll erst starten, wenn Thread 1 fertig ist.
 Nutze pthread_join() für die Synchronisation.
 
 → Ziel: Thread-Abhängigkeiten und kontrollierte Reihenfolge.
+
+[Link zum Code](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/gpt_B4__thread_sync.c)
 
 ---------------------------
 
