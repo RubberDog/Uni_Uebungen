@@ -80,6 +80,8 @@ Der Vater wartet, bis ls beendet ist, und schreibt danach:
 
 → Ziel: Verständnis für fork() + exec()-Kombination.
 
+[Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/execlp.c)
+
 ---------------------------
 
 ---------------------------
