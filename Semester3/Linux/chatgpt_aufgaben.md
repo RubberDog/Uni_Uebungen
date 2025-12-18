@@ -132,6 +132,8 @@ Verwende einen struct, um Parameter zu übergeben.
 
 → Ziel: Arbeiten mit Argumenten (void* arg).
 
+[Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/threads_argument.c)
+
 ---------------------------
 
 💬 Aufgabe 4 – Thread-Synchronisation mit join
