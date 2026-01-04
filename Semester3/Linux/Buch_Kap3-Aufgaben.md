@@ -2,7 +2,7 @@
 
 [Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/Shell/kap3_1-myquestion.sh)
 
-2. Erstellen Sie ein Shell-Script "mydelete", das als Parameter eine Liuste von Dateien hat. Diese Dateien sollen nun gelöscht werden. Das Shell-Script fragt aber für jede Datei, ob sie wirklich gelöscht werden soll. Nur bei der Antwort ja wird sie gelöscht. Hinweis: Sie sollen hier das Script myquestion aufrufen.
+2. Erstellen Sie ein Shell-Script "mydelete", das als Parameter eine Liste von Dateien hat. Diese Dateien sollen nun gelöscht werden. Das Shell-Script fragt aber für jede Datei, ob sie wirklich gelöscht werden soll. Nur bei der Antwort ja wird sie gelöscht. Hinweis: Sie sollen hier das Script myquestion aufrufen.
 
 [Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/Shell/kap3_2-mydelete.sh)
 
