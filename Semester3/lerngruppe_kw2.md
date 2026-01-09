@@ -18,6 +18,6 @@ Kapitel 4 Aufgaben
 
 1 [Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/father_and_son.c)
 
-2
+2 [Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/texte/loesung_4_2.md)
 
 5
