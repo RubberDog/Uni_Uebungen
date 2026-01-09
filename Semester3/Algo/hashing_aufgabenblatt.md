@@ -27,7 +27,7 @@ Geschlossenes Hashing:
 Besonderheiten
 
 Geschlossenes Hashing - Lineare Sondierung
-- benötigt Hilfsarray, in welchem festgehalten wird welche Elemente (L)eerm, (B)elegt oder (G)elöscht wurden
+- benötigt Hilfsarray, in welchem festgehalten wird welche Elemente (L)eer, (B)elegt oder (G)elöscht wurden
   - wichtig für die Suche, da am "korrekten" Platz begonnen und (G)elöscht übersprungen wird, Suche endet negativ wenn (L)eer erreicht wird
  
 
