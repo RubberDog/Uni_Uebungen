@@ -4,6 +4,8 @@
 
 2. Schreiben Sie einen eigenen kleinen Kommandointerpreter, so wie im Beispiel dieses Kapitels. Experimentieren Sie mit dem Programm, indem Sie Versionen testen, in denen wait und exit fehlen.
 
+[Link zur Lösung](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/texte/loesung_4_2.md)
+
 3. Schreiben Sie ein C-Programm, das eine Pipe realisiert. Ein Sohnprozess soll EU-Beträge in die Pipe schreiben, ein anderer Sohnprozess soll die EU-Beträge mit 16% Umsatzsteuer versehen und diese Ausgeben.
 
 [Link zum Code](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/kap4_3_euro-pipe.c)
