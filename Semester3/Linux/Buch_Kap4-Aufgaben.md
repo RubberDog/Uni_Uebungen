@@ -13,7 +13,7 @@
 5. Diese Übung widmet sich shared Memory. Schreiben Sie zwei Programm mit den Namen ausgabe.c und aendern.c. Diese Programme sollen ein Shared Memory-Segment benutzen, das ein Zeichen (char) eine eine Zahl (integer) enthält. ausgabe.c gibt das Zeichen so oft aus, wie die Zahl angibt. Das Programm aendern.c liest einen char und einen int aus der Kommandozeile und schreibt beides in Shared Memory.
 Hinweise: Schauen Sie sich an, wie man Argumente aus der Kommandozeile bearbeitet (*argv[]). Realisieren Sie Shared Memory als struct, vielleicht so:
  ```
-strunct inhalt {
+struct inhalt {
     char zeichen;
     int zahl;
 };
