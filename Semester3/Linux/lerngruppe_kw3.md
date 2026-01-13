@@ -3,8 +3,10 @@ Musterklausur Systemnahe Programmierung
 Teil A:
 
 1. Skizzieren Sie das UNIX Schichtenmodell! Kennzeichnen und benennen Sie die drei Schnittstellen zum Betriebssystem.
+[Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/texte/klausur_a1.md)
 
 2. Nennen Sie fünf typische Verzeichnisse direkt aus dem UNIX Root Verzeichnis oder aus Unterverzeichnissen und deren typischen Inhalt bzw. Aufgabe!
+[Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/texte/klausur_a2.md)
 
 3. Schreiben Sie ein Shell-Script mit dem Namen myquestion. Dieses Script erhält als Parameter den Text einer Frage, die mit ‚Ja‘ oder ‚Nein‘ beantwortet werden kann. 
 
@@ -20,6 +22,7 @@ Rufen Sie dazu das oben erstellte Skript auf und verwenden dessen Rückgabewert 
 Teil B:
 
 5. Welche Gemeinsamkeiten und Unterschiede haben Prozesse und Threads?
+[Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/texte/klausur_b5.md)
 
 6. Schreiben Sie ein C-Programm, das einen Vater- und einen Sohnprozess startet. 
 
