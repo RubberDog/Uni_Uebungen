@@ -42,7 +42,7 @@ Ist der Sohnprozess fertig, beendet er sich sofort. Der Vaterprozess wartet mit 
 
 Beide Threads geben pro Sekunde ihren eindeutigen Namen plus jeweils eine eigene fortlaufende Zahl aus. Stellen Sie sicher, dass die Ausgabe von einem Thread immer vollständig erfolgt, d. h. die Ausgaben von beiden Threads nicht gemischt werden.
 
-
+[Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/klausur_b7.c)
 
 8. Was ist eine race condition? Was ist eine critical section?
 
