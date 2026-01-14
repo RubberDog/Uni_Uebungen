@@ -14,7 +14,7 @@ Musterklausur Systemnahe Programmierung
 
 Antwortet der Benutzer mit Ja, so liefert das Script den Rückgabewert 0, bei Nein wird 1 geliefert, andernfalls erscheint die Frage noch einmal.
 
-
+[Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/Shell/klausur_a3.sh)
 
 4. Schreiben Sie ein Shell-Script, mit dem Sie eine Datei löschen können. Die zu löschende Datei soll als Parameter beim Aufruf mitgegeben werden. 
 
