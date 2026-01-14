@@ -36,7 +36,7 @@ Vater und Sohn durchlaufen jeweils eine Schleife bis 1000, wobei der Vater die g
 
 Ist der Sohnprozess fertig, beendet er sich sofort. Der Vaterprozess wartet mit dem Beenden auf das Ende des Sohnprozesses.
 
-
+[Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/klausur_b6.c)
 
 7. Schreiben Sie ein Programm, das zwei Threads startet. 
 
