@@ -5,7 +5,7 @@ if [ $# -eq 0 ]; then
     exit 2
 fi  
 
-for filname in "$@"; do
+for filename in "$@"; do
     if ./klausur_a3.sh "Datei $filename löschen?\n"; then
         rm -- "$filename"
     fi  
