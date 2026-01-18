@@ -71,4 +71,4 @@ Der Link zeigt auf das gerade erstellte Verzeichnis. Die Art des Links kann selb
 
 Das gelesene Zeichen soll als Dezimalzahl auf der Standardausgabe ausgegeben werden. Die Datei wird danach geschlossen und das Programm beendet sich. Enthält die Datei keine 10 Zeichen, wird eine Fehlermeldung ausgegeben. 
 
-
+[Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/kluasur_c12.c)
