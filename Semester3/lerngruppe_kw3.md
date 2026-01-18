@@ -65,7 +65,7 @@ Mit dem ersten Parameter wird ein neues Verzeichnis mit dem Parameter als Namen 
 
 Der Link zeigt auf das gerade erstellte Verzeichnis. Die Art des Links kann selbst gewählt werden.
 
-
+[Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/klausur_c11.c)
 
 12. Schreiben Sie ein C Programm, das aus einer Datei das 10. Zeichen ausliest, ohne die vorherigen Zeichen zu lesen. Der Dateiname wird als Kommandozeilenparameter übergeben. 
 
