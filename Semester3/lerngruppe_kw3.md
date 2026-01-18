@@ -53,7 +53,7 @@ Beide Threads geben pro Sekunde ihren eindeutigen Namen plus jeweils eine eigene
 
 9. Erläutern Sie den Systemaufruf result = sigaction(sig, act, oact)!
 
-
+[Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/texte/klausur_c9.md)
 
 10. Was ist ein mount point? In welchen beiden System Kommandos wird dieser benötigt? Erläutern Sie kurz die Aufgaben dieser beiden Kommandos!
 
