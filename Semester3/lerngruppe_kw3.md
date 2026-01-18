@@ -22,6 +22,7 @@ Vor dem Löschen soll nachgefragt werden, ob die Datei tatsächlich gelöscht we
 
 Rufen Sie dazu das oben erstellte Skript auf und verwenden dessen Rückgabewert als Entscheidung für das Löschen/Nicht-Löschen.
 
+[Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/Shell/klausur_a4.sh)
 
 
 ## Teil B:
