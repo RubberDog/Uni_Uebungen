@@ -3,11 +3,40 @@
 a) Rekonstruieren Sie aus der INORDER Traversierung: 1, 2, 3, 4, 5, 6, 7 den zugehörigen Binärbaum. \
 Ist Ihre Rekonstruktion eindeutig oder lassen sich verschiedene Bäume erstellen? 
 
+```
+     4
+   /  \
+  2    6
+ / \  / \
+1  3 5   7
+```
+Diese Rekonstruktion ist nicht eindeutig.\
+Eine Eindeutige Rekonstruktion erfordert zwei Traversierungen.
 
 b) Rekonstruieren Sie den zugehörigen Binärbaum aus den beiden  Traversierungen: 
 - INORDER Traversierung: 1, 2, 3, 4, 5, 6, 7  
 - PREORDER Traversierung: 4, 2, 1, 3, 6, 5, 7 \
 Ist diese Rekonstruktion eindeutig?
+
+Preorder: Erstes Element ist die Wurzel
+```
+In: 1,2,3,4,5,6,7
+Pre: 4,2,1,3,6,5,7
+4 Wurzel, vgl. IN -> 1,2,3 links davon, 5,6,7 rechts davon
+Pre: 4 streichen, dann 2 erstes Element -> Wurzel links -> vgl. IN -> 1 links davon, 3 rechts davon -> linke Seite fertig
+Pre: besteht noch aus 6, 5, 7
+Pre: 6 = Wurzel, vgl. IN -> 5 links, 7 rechts -> rechte Seite fertig
+Baum fertig
+```
+
+```
+     4
+   /  \
+  2    6
+ / \  / \
+1  3 5   7
+```
+Aufgrund der zwei unterschiedlichen Traversierungsformen lässt sich hier ein eindeutiger Baum erstellen.
 
 ## Rekonstruieren Sie den zugehörigen Binärbaum aus den beiden Traversierungen: 
 - INORDER: D, G, B, A, H, E, I, C, F  
