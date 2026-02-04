@@ -1,5 +1,3 @@
-Teil A: 
-
 1. Skizzieren Sie das UNIX Schichtenmodell!\
 Kennzeichnen und benennen Sie die drei Schnittstellen zum Betriebssystem. 
 
