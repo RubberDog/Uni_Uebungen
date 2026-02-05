@@ -1,16 +1,18 @@
 Im Unix-Schichtenmodell haben wir vier Ebenen;
 ```
-    Anwendungen
+      Benutzer
+      ^      ^
+Standardhilfsprogramme
     ^         ^
-Systemprogramme / Shell
-^                      ^
-      Kernel
+Standardbibliothek
+^                ^
+UNIX-Betriebssystem
       ^    ^
      Hardware
 ```
 
 Schnittstellen:
 
-- Hardware -> Kernel: Geräteschnittstelle (Treiber)
-- Kernel -> Systemprogramme: Programmiersschnittstelle (System-calls)
-- Systemprogramme -> Anwendungen: Benutzerschnittstelle (GUI, Shell-Befehle)
+Standardhilfsprogramme -> Benutzer = Benutzerschnittstelle
+Standardbibliothek -> Standardhilfsprogramme = Bibliotheksschnittstelle
+Unix-Betriebssystem -> Standdardbibliothek = Systemaufrufschnittstelle
