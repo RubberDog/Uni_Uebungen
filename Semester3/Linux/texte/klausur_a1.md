@@ -13,6 +13,6 @@ UNIX-Betriebssystem
 
 Schnittstellen:
 
-Standardhilfsprogramme -> Benutzer = Benutzerschnittstelle
-Standardbibliothek -> Standardhilfsprogramme = Bibliotheksschnittstelle
+Standardhilfsprogramme -> Benutzer = Benutzerschnittstelle\
+Standardbibliothek -> Standardhilfsprogramme = Bibliotheksschnittstelle\
 Unix-Betriebssystem -> Standdardbibliothek = Systemaufrufschnittstelle
