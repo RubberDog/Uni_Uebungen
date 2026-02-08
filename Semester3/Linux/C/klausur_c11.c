@@ -9,7 +9,7 @@ int main(int argc, char** argv) {
         printf("Es müssen ZWEI Argumente übergeben werden!\n");
         printf("./linkymclinkface /path/to/newdir /path/to/symlink/location\n");
         printf("Mkay?\n");
-        exit(1);
+        exit(EXIT_FAILURE);
     }
 
     if (mkdir(argv[1], 0755) != 0) {
