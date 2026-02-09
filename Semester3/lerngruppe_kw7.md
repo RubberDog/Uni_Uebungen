@@ -8,7 +8,11 @@ mit dem Aufruf der Wartefunktion in der Mitte. Stellen Sie sicher, dass die Ausg
 
 8. Was ist eine race condition? Was ist eine critical section?
 
-9. Erläutern Sie die Aufgabe des Systemaufrufs und dessen Parameter in result = execlp(const char *file, const char *arg, ...);
+[Löungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/texte/kw7_a8.md)
+
+9. Erläutern Sie die Aufgabe des Systemaufrufs und dessen Parameter int result = execlp(const char *file, const char *arg, ...);
+
+[Löungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/texte/kw7_a9.md)
 
 10. Was ist ein mount point? In welchen beiden Systemkommandos wird dieser benötigt? Erläutern Sie kurz die Aufgaben dieser beiden Kommandos.
 
