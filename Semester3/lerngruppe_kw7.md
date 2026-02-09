@@ -2,9 +2,13 @@
 wobei der Vater gerade und der Sohn durch 3 teilbare Zahlen ausgibt. Die erste Zahl soll bei beiden die 0 sein.\
 Der Vaterprozess erzeugt seine Ausgabe erst nach dem Ende des Sohnprozesses.
 
+[Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/father_son_42.c)
+
 7. Schreiben Sie ein Programm, das zwei Threads startet. Beide Threads geben endlos einmal pro Sekunde ihren betriebssystemweit eindeutigen\ 
 Namen und einen gemeinsamen Zähler aus. Ausgabe und Inkrementieren des Zählers sollen dabei in verschiedenen Programmteilen erfolgen,\
 mit dem Aufruf der Wartefunktion in der Mitte. Stellen Sie sicher, dass die Ausgabe zusammenhängend erfolgt.
+
+[Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/kw7_a7.c)
 
 8. Was ist eine race condition? Was ist eine critical section?
 
