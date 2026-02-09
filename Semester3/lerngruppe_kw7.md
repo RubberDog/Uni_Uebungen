@@ -16,6 +16,8 @@ mit dem Aufruf der Wartefunktion in der Mitte. Stellen Sie sicher, dass die Ausg
 
 10. Was ist ein mount point? In welchen beiden Systemkommandos wird dieser benötigt? Erläutern Sie kurz die Aufgaben dieser beiden Kommandos.
 
+[Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/texte/kw7_a10.md)
+
 11. Schreiben Sie ein C-Programm, das beliebig viele Kommandozeilenparameter erhalten kann. Es soll seinen eigenen Namen und die Anzahl der\ 
 Kommandozeilenparameter ausgeben. Existieren Parameter, sollen diese zusammen mit einer fortlaufenden, bei 1 beginnenden Nummer jeweils in einer eigenen Zeile ausgegeben werden.
 
