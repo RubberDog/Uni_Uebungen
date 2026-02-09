@@ -25,5 +25,7 @@ mit dem Aufruf der Wartefunktion in der Mitte. Stellen Sie sicher, dass die Ausg
 11. Schreiben Sie ein C-Programm, das beliebig viele Kommandozeilenparameter erhalten kann. Es soll seinen eigenen Namen und die Anzahl der\ 
 Kommandozeilenparameter ausgeben. Existieren Parameter, sollen diese zusammen mit einer fortlaufenden, bei 1 beginnenden Nummer jeweils in einer eigenen Zeile ausgegeben werden.
 
+[Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/kw7_a11.c)
+
 12. Schreiben Sie ein C-Programm, das dieselbe Funktion wie in Aufgabe 3 beschrieben realisiert! Nennen Sie den Aufruf des gcc zum vollständigen Bauen\
 des ausführbaren Programms! Die ausführbare Datei soll myquestion heißen.
