@@ -29,3 +29,5 @@ Kommandozeilenparameter ausgeben. Existieren Parameter, sollen diese zusammen mi
 
 12. Schreiben Sie ein C-Programm, das dieselbe Funktion wie in Aufgabe 3 beschrieben realisiert! Nennen Sie den Aufruf des gcc zum vollständigen Bauen\
 des ausführbaren Programms! Die ausführbare Datei soll myquestion heißen.
+
+[Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/kw7_a12.c)
