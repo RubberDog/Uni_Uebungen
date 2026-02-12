@@ -25,6 +25,8 @@ Hinweise:
 * Mutex **vor** der Ausgabe sperren, **danach** freigeben
 * Hauptthread wartet mit `pthread_join(thread, NULL)`
 
+[Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/mt_a1.c)
+
 ---
 
 ## Übung 2 – Drei Threads, unterschiedliche Intervalle
