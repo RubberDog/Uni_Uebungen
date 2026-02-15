@@ -3,19 +3,9 @@
 ### 1. Skizzieren Sie das UNIX Schichtenmodell! Kennzeichnen und benennen Sie 
 die drei Schnittstellen zum Betriebssystem. 
 ```
-Anwendungen
-^       ^
-Systemprogramme/Shell
-^       ^
- Kernel
-^       ^
-Hardware
+TODO
 
-Schnittstellen; 
-
-Hardware <> Kernel (HAL -> Hardware Abstraction Layer)
-Kernel <> Systemprogramme/Shell (SCI -> System Call Interface)
-Shell <> Anwendungen (User Command Interface)
+War falsch
 
 ```
 
