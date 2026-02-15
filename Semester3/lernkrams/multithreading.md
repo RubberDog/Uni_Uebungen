@@ -54,9 +54,9 @@ Ziel:
 
 * wiederholtes Schreiben von `pthread_create`, `pthread_join` und `pthread_mutex_*`
 
----
-
 [Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/mt_a2.c)
+
+---
 
 
 ## Übung 3 – Hauptthread wartet sauber
