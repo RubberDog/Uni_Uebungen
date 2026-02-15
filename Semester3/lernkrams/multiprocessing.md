@@ -18,6 +18,8 @@ und den Exit-Code des Sohns.
 
 Hinweis: Da Exit-Codes nur 0–255 sind, muss der Sohn den Exit-Code sinnvoll setzen (z. B. sum % 256) und die echte Summe normal ausgeben.
 
+[Lösungsvorschlag](https://github.com/RubberDog/Uni_Uebungen/blob/main/Semester3/Linux/C/mp_a1.c)
+
 
 ## Aufgabe 2: Mini-“exec” mit Kindprozess und Exit-Auswertung
 
