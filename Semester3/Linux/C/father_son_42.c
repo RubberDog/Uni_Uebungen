@@ -17,7 +17,7 @@ int main() {
     } else if (pid == 0) {
         int counter = 1;
         for (int i = 0; counter <= 42; i++) {
-            if (i % 3 == 0 || i == 0) {
+            if (i % 3 == 0) {
                 printf("Sohn: Durchlauf %d, Zahl %d\n", counter, i);
                 counter++;
             }
@@ -27,7 +27,7 @@ int main() {
         wait(NULL);
         int counter = 1;
         for (int i = 0; counter <=42; i++) {
-            if (i % 2 == 0 || i == 0) {
+            if (i % 2 == 0) {
                 printf("Vater: Durchlauf %d, Zahl %d\n", counter, i);
                 counter++;
             }
