@@ -8,7 +8,7 @@
 #### 1.2
 In Python;
 ```python
-def gtt(A,B):
+def ggt(A,B):
   while B > 0:
     A, B = B, A % B
   return A
