@@ -1,8 +1,8 @@
 #### 1.1
 
-  **E**ndlich 
-  **D**eterministisch
-  **E**ffektiv
+  **E**ndlich\
+  **D**eterministisch\
+  **E**ffektiv\
   **L**iefert (Output / Ergebnis)
 
 #### 1.2
