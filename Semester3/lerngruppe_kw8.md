@@ -73,7 +73,7 @@ f(n) {
       return 0;
   } else if (n == 1) {
       return 1;
-  } else {
+  } else if (n < 1) {
       return f(n-1) + f(n-2);
   }
 }
