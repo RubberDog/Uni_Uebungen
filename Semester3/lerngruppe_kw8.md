@@ -81,7 +81,8 @@ f(n) {
 
 #### 4.3 
 
-<img width="564" height="332" alt="image" src="https://github.com/user-attachments/assets/105c500d-ee1c-4ad8-9524-522132150aef" />
+<img width="477" height="249" alt="image" src="https://github.com/user-attachments/assets/4ad59d30-0602-4ed0-8ad6-89e0eb48ac07" />
+
 
 #### 5
 
