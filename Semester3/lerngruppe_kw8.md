@@ -82,3 +82,21 @@ f(n) {
 #### 4.3 
 
 <img width="564" height="332" alt="image" src="https://github.com/user-attachments/assets/105c500d-ee1c-4ad8-9524-522132150aef" />
+
+#### 5
+
+falsch
+
+falsch
+
+korrekt
+
+falsch
+
+#### 6
+
+| | Worst case | Best Case | Adaptiv |
+| --- | --- | --- | --- | 
+| Selection Sort | O(N²) | O(N²) | nein  |
+| Bubble Sort | O(N²)  | O(N) | ja  |
+| Insertion Sort | O(N²)  | O(N) | ja  |
