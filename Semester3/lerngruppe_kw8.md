@@ -9,7 +9,7 @@
 In Python;
 ```python
 def ggt(A,B):
-  while B > 0:
+  while B != 0:
     A, B = B, A % B
   return A
 ``` 
@@ -53,3 +53,32 @@ c)
 
 a) Minimal: 4\
 b) Maximal: 15
+
+#### 4.1
+
+Richtig
+
+Falsch
+
+Richtig
+
+Falsch
+
+
+#### 4.2
+
+```C
+f(n) {
+  if (n == 0) {
+      return 0;
+  } else if (n == 1) {
+      return 1;
+  } else {
+      return f(n-1) + f(n-2);
+  }
+}
+```
+
+#### 4.3 
+
+<img width="564" height="332" alt="image" src="https://github.com/user-attachments/assets/105c500d-ee1c-4ad8-9524-522132150aef" />
